@@ -1,8 +1,11 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import pjtw from "./assets/pjtw-logo.jpg";
-import Image from "react-bootstrap/Image";
+import { Button, Image } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
+import i18next from "i18next";
 
 function App() {
+  const { t } = useTranslation();
   return (
     <div
       style={{
@@ -32,7 +35,22 @@ function App() {
           padding: "10px",
         }}
       >
-        <h3>Coming Soon...</h3>
+        <h3>{t("sample_txt")}</h3>
+        <Button
+          variant="outline-secondary"
+          onClick={() => i18next.changeLanguage("en")}
+        >
+          English
+        </Button>
+        <Button
+          style={{
+            marginLeft: "10px",
+          }}
+          variant="outline-secondary"
+          onClick={() => i18next.changeLanguage("bm")}
+        >
+          Malay
+        </Button>
       </div>
     </div>
   );
