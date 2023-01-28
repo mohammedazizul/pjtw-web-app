@@ -1,3 +1,10 @@
 {
-    "sample_txt": "Coming Soon"
+    "home_test_text": "Coming Soon",
+    "about_test_text": "This is a test About page.",
+    "contact_test_text": "This is a test Contact Us page.",
+    "product_test_text": "This is a test Products page.",
+    "service_test_text": "This is a test Services page.",
+    "not_found": "Not Found",
+    "oops": "Oops!",
+    "not_found_text":"The page you are looking for is not available."
 }

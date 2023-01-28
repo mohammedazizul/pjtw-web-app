@@ -1,3 +1,10 @@
 {
-    "sample_txt": "Akan Datang"
+    "home_test_text": "Akan Datang",
+    "about_test_text": "Ini ialah halaman tentang ujian.",
+    "contact_test_text": "Ini adalah halaman ujian Hubungi Kami.",
+    "product_test_text": "Ini ialah halaman Produk ujian.",
+    "service_test_text": "Ini ialah halaman Perkhidmatan ujian.",
+    "not_found": "Tidak ditemui",
+    "oops": "Aduh!",
+    "not_found_text":"Halaman yang anda cari tidak tersedia."
 }
