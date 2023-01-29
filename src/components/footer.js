@@ -15,6 +15,7 @@ import {
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import pjtw from "../assets/pjtw-logo.jpg";
+import DevFooter from "./DevFooter/DevFooter";
 
 const Footer = () => {
   const homeIcon = <FontAwesomeIcon icon={faHome} />;
@@ -26,8 +27,6 @@ const Footer = () => {
   const faceBookIcon = <FontAwesomeIcon icon={faFacebook} />;
   const tikTokIcon = <FontAwesomeIcon icon={faTiktok} />;
   const youtubeIcon = <FontAwesomeIcon icon={faYoutube} />;
-  const date = new Date();
-  const currentYear = date.getFullYear();
 
   return (
     <div bgColor="light" className="text-center text-lg-start text-muted">
@@ -142,22 +141,7 @@ const Footer = () => {
           </Row>
         </Container>
       </section>
-
-      <div
-        className="text-center p-4"
-        style={{ backgroundColor: "rgba(0, 0, 0, 0.05)", fontSize: "14px" }}
-      >
-        {currentYear} © <b>Perawan Juwita Terapi Warisan</b>.
-        <br /> ALL RIGHTS RESERVED. PRIVACY POLICY. TERMS & CONDITIONS.
-        <br />
-        <small>
-          {" "}
-          Developed by:{" "}
-          <a className="text-reset fw-bold" href="https://azizul.netlify.app/">
-            Mohammed Azizul
-          </a>
-        </small>
-      </div>
+      <DevFooter />
     </div>
   );
 };
