@@ -1,18 +1,11 @@
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHome, faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import {
-  faHome,
-  faEnvelope,
-  faPhone,
-  faPrint,
-} from "@fortawesome/free-solid-svg-icons";
-import {
-  faTwitter,
   faInstagram,
   faFacebook,
   faTiktok,
-  faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import pjtw from "../assets/pjtw-logo.jpg";
 import DevFooter from "./DevFooter/DevFooter";
@@ -21,12 +14,9 @@ const Footer = () => {
   const homeIcon = <FontAwesomeIcon icon={faHome} />;
   const envelopIcon = <FontAwesomeIcon icon={faEnvelope} />;
   const phoneIcon = <FontAwesomeIcon icon={faPhone} />;
-  const printIcon = <FontAwesomeIcon icon={faPrint} />;
-  const twitterIcon = <FontAwesomeIcon icon={faTwitter} />;
   const instagramIcon = <FontAwesomeIcon icon={faInstagram} />;
   const faceBookIcon = <FontAwesomeIcon icon={faFacebook} />;
   const tikTokIcon = <FontAwesomeIcon icon={faTiktok} />;
-  const youtubeIcon = <FontAwesomeIcon icon={faYoutube} />;
 
   return (
     <div bgColor="light" className="text-center text-lg-start text-muted">
@@ -36,20 +26,29 @@ const Footer = () => {
         </div>
 
         <div>
-          <a href="/" className="me-4 text-reset">
+          <a
+            href="https://www.facebook.com/perawanjuwita"
+            className="me-4 text-reset"
+            target="_blank"
+            rel="noreferrer"
+          >
             {faceBookIcon}
           </a>
-          <a href="/" className="me-4 text-reset">
-            {twitterIcon}
-          </a>
-          <a href="/" className="me-4 text-reset">
+          <a
+            href="https://www.instagram.com/perawan_juwita"
+            className="me-4 text-reset"
+            target="_blank"
+            rel="noreferrer"
+          >
             {instagramIcon}
           </a>
-          <a href="/" className="me-4 text-reset">
+          <a
+            href="https://tiktok.com/@perawanjuwita"
+            className="me-4 text-reset"
+            target="_blank"
+            rel="noreferrer"
+          >
             {tikTokIcon}
-          </a>
-          <a href="/" className="me-4 text-reset">
-            {youtubeIcon}
           </a>
         </div>
       </section>
@@ -89,17 +88,12 @@ const Footer = () => {
               </p>
               <p>
                 <a href="#!" className="text-reset">
-                  Privacy Policy
-                </a>
-              </p>
-              <p>
-                <a href="#!" className="text-reset">
                   Terms & Conditions
                 </a>
               </p>
               <p>
                 <a href="#!" className="text-reset">
-                  License
+                  Privacy Policy
                 </a>
               </p>
             </Col>
@@ -130,13 +124,11 @@ const Footer = () => {
 
             <Col md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
               <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
-              <>{homeIcon} Subang Jaya, 47500, Malaysia</>
+              <>{homeIcon} USJ19 Mall, Subang Jaya, Malaysia</>
               <br />
               <>{envelopIcon} info@example.com</>
               <br />
-              <>{phoneIcon} + 01 234 567 89</>
-              <br />
-              <>{printIcon} + 01 234 567 89</>
+              <>{phoneIcon} +60 11 359 69 735</>
             </Col>
           </Row>
         </Container>
