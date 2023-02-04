@@ -1,0 +1,43 @@
+.spa-service-card {
+    box-shadow: 0px 5px 10px #888888;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+.spa-service-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+  
+.spa-service-list .spa-service-item {
+  border-bottom: 1px solid lightgray;
+  cursor: pointer;
+}
+  
+.spa-service-category {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+  
+.spa-service-description {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+  
+.spa-service-details {
+  font-size: 14px;
+  font-style: italic;
+}
+  
+@media (max-width: 991px) {
+  .spa-service-card {
+    width: 100%;
+    margin: 20px 0;
+  }
+}
+  

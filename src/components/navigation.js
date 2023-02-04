@@ -1,15 +1,16 @@
-import { Image } from "react-bootstrap";
+// import { Image } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import pjtw from "../assets/pjtw-logo.jpg";
-import Index from "./LanguageToggleBtn";
+// import pjtw from "../assets/pjtw-logo.jpg";
+import BookNowBtn from "./BookNowBtn";
+import LanguageToggleBtn from "./LanguageToggleBtn";
 
 function Navigation() {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="#home">
+        {/* <Navbar.Brand href="#home">
           <Image
             src={pjtw}
             alt="logo of Perawan Juwita Terapi Warisan"
@@ -20,7 +21,7 @@ function Navigation() {
               alignSelf: "center",
             }}
           />{" "}
-        </Navbar.Brand>
+        </Navbar.Brand> */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -40,14 +41,14 @@ function Navigation() {
             >
               Services
             </Nav.Link>
-            <Nav.Link
+            {/* <Nav.Link
               href="/products"
               style={{
                 color: "#03755B",
               }}
             >
               Products
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link
               href="/about"
               style={{
@@ -57,6 +58,7 @@ function Navigation() {
               About Us
             </Nav.Link>
             <Nav.Link
+              className="justify-content-end"
               href="/contact"
               style={{
                 color: "#03755B",
@@ -64,7 +66,10 @@ function Navigation() {
             >
               Contact
             </Nav.Link>
-            <Index />
+            <BookNowBtn text={"Book Now"} />
+          </Nav>
+          <Nav>
+            <LanguageToggleBtn />
           </Nav>
         </Navbar.Collapse>
       </Container>
