@@ -2,11 +2,18 @@ import React, { useState } from "react";
 import { Card, ListGroup, ListGroupItem } from "react-bootstrap";
 import "./style.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faClockRotateLeft, faTag } from "@fortawesome/free-solid-svg-icons";
+import {
+  faClockRotateLeft,
+  faMinusSquare,
+  faPlusSquare,
+  faTag,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Service = ({ service, categories }) => {
   const durationIcon = <FontAwesomeIcon icon={faClockRotateLeft} />;
   const priceIcon = <FontAwesomeIcon icon={faTag} />;
+  const plusIcon = <FontAwesomeIcon icon={faPlusSquare} />;
+  const minusIcon = <FontAwesomeIcon icon={faMinusSquare} />;
   const [showCategories, setShowCategories] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState(null);
 
@@ -22,18 +29,19 @@ const Service = ({ service, categories }) => {
   return (
     <Card
       style={{
-        width: "350px",
+        // width: "350px",
         margin: "20px auto",
       }}
       className="spa-service-card"
     >
+      {/* <Card.Header>Featured</Card.Header> */}
       <Card.Body>
         <Card.Title
           style={{ color: "#03755B" }}
           className="spa-service-title"
           onClick={toggleCategories}
         >
-          {service}
+          {service}&nbsp;&nbsp;{showCategories ? minusIcon : plusIcon}
         </Card.Title>
         {showCategories ? (
           <ListGroup className="list-group-flush spa-service-list">

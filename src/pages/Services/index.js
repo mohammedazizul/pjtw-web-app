@@ -3,6 +3,7 @@ import Footer from "../../components/footer";
 import Navigation from "../../components/navigation";
 // import { useTranslation } from "react-i18next";
 import Service from "../../components/ServiceCard";
+import "./style.css";
 
 const Index = () => {
   // const { t } = useTranslation();
@@ -58,13 +59,7 @@ const Index = () => {
   return (
     <>
       <Navigation />
-      <div
-        className="justify-content-center"
-        style={{
-          padding: "10px",
-          backgroundColor: "#BD7E49",
-        }}
-      >
+      <div className="services-div">
         {services.map((service, index) => (
           <Service
             key={index}
