@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "../../components/Footer/Footer";
-import Navigation from "../../components/navigation";
+import Navigation from "../../components/Navigation/Navigation";
 import { useTranslation } from "react-i18next";
 
 const Index = () => {

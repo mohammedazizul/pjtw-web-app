@@ -75,7 +75,7 @@ const Footer = () => {
                 <br /> */}
                 Perawan Juwita Terapi Warisan
               </h6>
-              <p style={{ fontSize: "12px" }}>
+              <p style={{ fontSize: "12px", textAlign: "justify" }}>
                 Perawan Juwita Terapi Warisan was established in 2018 and is a
                 100% bumiputra owned company. We provide practices that
                 complement Malay Traditional &amp; Complimentary Medicine,
@@ -141,7 +141,13 @@ const Footer = () => {
               </p>
             </Col> */}
 
-            <Col md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
+            <Col
+              md="4"
+              lg="3"
+              xl="3"
+              className="mx-auto mb-md-0 mb-4"
+              id="bottom-contact"
+            >
               <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
               <p className="mb-2">
                 {homeIcon} USJ19 Mall, Subang Jaya, Malaysia

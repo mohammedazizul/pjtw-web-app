@@ -3,8 +3,8 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 // import pjtw from "../assets/pjtw-logo.jpg";
-import BookNowBtn from "./BookNowBtn";
-import LanguageToggleBtn from "./LanguageToggleBtn";
+import BookNowBtn from "../BookNowBtn";
+import LanguageToggleBtn from "../LanguageToggleBtn";
 
 function Navigation() {
   return (
@@ -59,7 +59,8 @@ function Navigation() {
             </Nav.Link>
             <Nav.Link
               className="justify-content-end"
-              href="/contact"
+              // href="/contact"
+              href="#bottom-contact"
               style={{
                 color: "#03755B",
               }}
