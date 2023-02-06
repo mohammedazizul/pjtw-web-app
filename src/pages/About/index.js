@@ -1,7 +1,8 @@
 import React from "react";
-import Footer from "../../components/footer";
+// import Footer from "../../components/Footer/Footer";
 import Navigation from "../../components/navigation";
 import { useTranslation } from "react-i18next";
+import Footer from "../../components/Footer/Footer";
 
 const Index = () => {
   const { t } = useTranslation();
@@ -30,6 +31,8 @@ const Index = () => {
           <h1>{t("about_test_text")}</h1>
         </div>
       </div>
+      {/* <Footer /> */}
+      {/* <Footer /> */}
       <Footer />
     </>
   );

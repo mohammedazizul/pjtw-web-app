@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "../../components/footer";
+import Footer from "../../components/Footer/Footer";
 import Navigation from "../../components/navigation";
 import { useTranslation } from "react-i18next";
 
