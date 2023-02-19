@@ -1,0 +1,33 @@
+.FounderSection-image {
+  border: 8px solid #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  height: 35vh;
+}
+
+.FounderSection-details {
+  padding: 30px;
+  background-color: #e5e5e5 ;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.FounderSection-name {
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.FounderSection-title {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.FounderSection-quote {
+  font-size: 16px;
+  font-style: italic;
+  color: #666;
+}
