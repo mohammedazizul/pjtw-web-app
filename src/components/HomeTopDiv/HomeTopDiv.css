@@ -1,0 +1,29 @@
+.HomeTopDiv-image {
+  border: 8px solid #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  height: 50vh;
+}
+
+.HomeTopDiv-logo {
+  padding: 5px;
+  margin-top: 20px;
+  height: 50vh;
+}
+
+.HomeTopDiv-details {
+  padding: 5px;
+  margin-top: 20px;
+  height: 50vh;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.HomeTopDiv-p { 
+  width: 100vw;
+  margin: 0px;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+  color: rgb(3, 117, 91);
+  font-weight: 600;
+  font-size: large;
+}

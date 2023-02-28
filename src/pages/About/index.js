@@ -2,29 +2,24 @@ import React from "react";
 // import { useTranslation } from "react-i18next";
 import Footer from "../../components/Footer/Footer";
 import Navigation from "../../components/Navigation/Navigation";
-import ListInAbout from "../../components/ListInAbout/ListInAbout";
+// import ListInAbout from "../../components/ListInAbout/ListInAbout";
 import VisionMission from "../../components/VisionMission/VisionMission";
-import FounderSection from "../../components/FoundeSection/FounderSection";
-import ServiceInAbout from "../../components/ServiceCardInAbout/ServiceInAbout";
+import FounderSection from "../../components/FounderSection/FounderSection";
+// import ServiceInAbout from "../../components/ServiceCardInAbout/ServiceInAbout";
+import "./style.css";
 
 const Index = () => {
   // const { t } = useTranslation();
 
   return (
-    <>
+    <div className="aboutDiv">
       <Navigation />
-      <div
-        style={{
-          backgroundColor: "#BD7E49",
-        }}
-      >
-        <VisionMission />
-        <ListInAbout />
-        <ServiceInAbout />
-        <FounderSection />
-      </div>
+      <VisionMission />
+      {/* <ListInAbout />
+      <ServiceInAbout /> */}
+      <FounderSection />
       <Footer />
-    </>
+    </div>
   );
 };
 

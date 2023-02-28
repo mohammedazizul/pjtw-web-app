@@ -1,0 +1,11 @@
+.visionMission-image {
+    width: 15vw;
+    height: 30vh;
+}
+@media (max-width: 991px) {
+    .visionMission-image {
+        width: 60vw;
+        height: 30vh;
+    }
+  }
+    

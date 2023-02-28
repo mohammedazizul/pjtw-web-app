@@ -33,6 +33,7 @@ const Service = ({ service, categories }) => {
         margin: "20px auto",
       }}
       className="spa-service-card"
+      id="services"
     >
       {/* <Card.Header>Featured</Card.Header> */}
       <Card.Body>

@@ -12,7 +12,7 @@ const ServiceInAbout = () => {
         in Malaysia whereby one of its objective is to provide Urut Melayu for poststroke patient.
         `,
       imageUrl: "/src/assets/286X180.svg",
-      serviceLink: "/services/urut-melayu",
+      serviceLink: "/services",
     },
     {
       title: "Malay Post-Natal Treatment",
@@ -30,7 +30,7 @@ const ServiceInAbout = () => {
             • Traditionally prepared edible supplements using herbs mixture
         `,
       imageUrl: "/src/assets/home-bg.jpg",
-      serviceLink: "/services/postnatal-treatment",
+      serviceLink: "/services",
     },
     {
       title: "Poststroke Therapy",
@@ -41,7 +41,7 @@ const ServiceInAbout = () => {
         prosperous. There are some practices that need to be done especially after the end of the menstrual period and after giving birth.
         `,
       imageUrl: "/src/assets/home-bg.jpg",
-      serviceLink: "/services/poststroke-therapy",
+      serviceLink: "/services",
     },
   ];
 
@@ -55,7 +55,7 @@ const ServiceInAbout = () => {
           >
             <Row>
               {services.map((service, index) => (
-                <Col md={4} key={index}>
+                <Col md={12} key={index}>
                   <ServiceCardForAbout
                     title={service.title}
                     description={service.description}

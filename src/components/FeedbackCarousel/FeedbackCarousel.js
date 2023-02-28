@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Container, Carousel } from "react-bootstrap";
+import { Card, Container, Carousel, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import "./style.css";
@@ -44,7 +44,16 @@ const FeedbackCarousel = () => {
   ];
 
   return (
-    <Container>
+    <Container className="p-5">
+      <Col xs={12} md={12}>
+        <div
+          class="d-flex justify-content-center p-3"
+          style={{ color: "#03755B" }}
+        >
+          <h2>Customer Feedbacks</h2>
+        </div>
+        <hr className="pb-3 m-0" style={{ color: "#03755B" }} />
+      </Col>
       <Carousel fade>
         {feedbacks.map((feedback, index) => (
           <Carousel.Item key={index}>

@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  Col,
-  Container,
-  // Image,
-  Row,
-} from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome, faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import {
@@ -12,7 +7,6 @@ import {
   faFacebook,
   faTiktok,
 } from "@fortawesome/free-brands-svg-icons";
-// import pjtw from "../assets/pjtw-logo.jpg";
 import DevFooter from "../DevFooter/DevFooter";
 
 const Footer = () => {
@@ -24,65 +18,34 @@ const Footer = () => {
   const tikTokIcon = <FontAwesomeIcon icon={faTiktok} size="lg" />;
 
   return (
-    <div className="text-center text-lg-start text-muted">
-      {/* <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-        <div className="me-5 d-none d-lg-block">
-          <span>Get connected with us on social networks:</span>
-        </div>
-        <div>
-          <a
-            href="https://www.facebook.com/perawanjuwita"
-            className="me-4 text-reset"
-            target="_blank"
-            rel="noreferrer"
-          >
-            {faceBookIcon}
-          </a>
-          <a
-            href="https://www.instagram.com/perawan_juwita"
-            className="me-4 text-reset"
-            target="_blank"
-            rel="noreferrer"
-          >
-            {instagramIcon}
-          </a>
-          <a
-            href="https://tiktok.com/@perawanjuwita"
-            className="me-4 text-reset"
-            target="_blank"
-            rel="noreferrer"
-          >
-            {tikTokIcon}
-          </a>
-        </div>
-      </section> */}
-
+    <div
+      className="text-center text-lg-start text-muted pt-2"
+      style={{
+        backgroundColor: "#F5F5F5",
+      }}
+    >
       <section className="">
         <Container className="text-center text-md-start mt-5">
           <Row className="mt-3">
             <Col md="3" lg="4" xl="3" className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">
-                {/* <Image
-                  src={pjtw}
-                  alt="logo of Perawan Juwita Terapi Warisan"
-                  thumbnail="true"
-                  style={{
-                    height: "50px",
-                    weight: "50px",
-                    alignSelf: "center",
-                  }}
-                />{" "}
-                <br /> */}
                 Perawan Juwita Terapi Warisan
               </h6>
               <p style={{ fontSize: "12px", textAlign: "justify" }}>
-                Perawan Juwita Terapi Warisan was established in 2018 and is a
-                100% bumiputra owned company. We provide practices that
-                complement Malay Traditional &amp; Complimentary Medicine,
-                namely Malay massage, the use of herbs, malay postnatal
-                midwifery and blood cupping with field of knowledge and that
-                cover aspects of health and healing which was practiced
-                generation to generation.
+                The leading brand in providing Malay Traditional Concept
+                Spa/Mobile Spa Therapy & Post-Natal Care in Malaysia and
+                globally. Our goal is to dignify and maintain the authenticity
+                of Malay Traditional Medicine identity without mixing it with
+                other medical practitioners. We deliver standard treatment at a
+                reasonable, affordable price. Specialist in malay traditional
+                massage known as Urut Melayu, malay post-natal treatment and
+                provide treatment for poststroke patients.
+              </p>
+              <p style={{ fontSize: "12px", textAlign: "justify" }}>
+                To guide and active support role in traditional malay post-natal
+                care to preserve health and healing of the physical and mental
+                health and also to prevent postpartum depression and anxiety by
+                specific diet and treatment for life well-being.
               </p>
             </Col>
 
@@ -116,30 +79,6 @@ const Footer = () => {
                 </a>
               </p>
             </Col>
-
-            {/* <Col md="3" lg="2" xl="2" className="mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
-              <p>
-                <a href="#!" className="text-reset">
-                  Pricing
-                </a>
-              </p>
-              <p>
-                <a href="#!" className="text-reset">
-                  Services
-                </a>
-              </p>
-              <p>
-                <a href="#!" className="text-reset">
-                  Orders
-                </a>
-              </p>
-              <p>
-                <a href="#!" className="text-reset">
-                  Help
-                </a>
-              </p>
-            </Col> */}
 
             <Col
               md="4"
@@ -191,4 +130,3 @@ const Footer = () => {
 };
 
 export default Footer;
-// REF: https://mdbootstrap.com/docs/react/navigation/footer/
