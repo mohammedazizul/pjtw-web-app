@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 
 const DevFooter = () => {
-  const version = "0.1";
+  const version = "1.0.0";
   const devWebLink = "https://azizul.netlify.app/";
   const devName = "Mohammed Azizul";
   return (
