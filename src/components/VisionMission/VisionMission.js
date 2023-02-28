@@ -1,5 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import pwjtLogo from "../../assets/pjtw-logo.jpg";
+import "./VisionMission.css";
 
 const VisionMission = () => {
   return (
@@ -14,22 +16,21 @@ const VisionMission = () => {
           </div>
           <hr className="pb-3 m-0" style={{ color: "#03755B" }} />
         </Col>
+
+        <Col>
+          <div class="d-flex justify-content-center p-3">
+            <img className="visionMission-image" src={pwjtLogo} alt="" />
+          </div>
+        </Col>
+
         <Col xs={12} md={12}>
-          <p className="text-justify" style={{ color: "#e5e5e5" }}>
-            The leading brand in providing Malay Traditional Concept Spa/Mobile
-            Spa Therapy &amp; Post-Natal Care in Malaysia and globally. Our goal
-            is to dignify and maintain the authenticity of Malay Traditional
-            Medicine identity without mixing it with other medical
-            practitioners. We deliver standard treatment at a reasonable,
-            affordable price. Specialist in malay traditional massage known as
-            Urut Melayu, malay post-natal treatment and provide treatment for
-            poststroke patients.
-          </p>
-          <p className="text-justify" style={{ color: "#e5e5e5" }}>
-            To guide and active support role in traditional malay post-natal
-            care to preserve health and healing of the physical and mental
-            health and also to prevent postpartum depression and anxiety by
-            specific diet and treatment for life well-being.
+          <p className="text-center" style={{ color: "#e5e5e5" }}>
+            Perawan Juwita Terapi Warisan was established in 2018 and is a 100%
+            bumiputra owned company. We provide practices that complement Malay
+            Traditional & Complimentary Medicine, namely Malay massage, the use
+            of herbs, malay postnatal midwifery and blood cupping with field of
+            knowledge and that cover aspects of health and healing which was
+            practiced generation to generation.
           </p>
         </Col>
       </Row>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Card, Button } from "react-bootstrap";
-import placeHolderImage from "./286X180.svg";
+// import placeHolderImage from "./286X180.svg";
 import "./style.css";
 
 const ServiceCardForAbout = ({ title, description, link, imageUrl }) => {
@@ -14,7 +14,7 @@ const ServiceCardForAbout = ({ title, description, link, imageUrl }) => {
     <Card className="ServiceCard mb-2" style={{ color: "#03755B" }}>
       <Card.Body>
         <Card.Title>{title}</Card.Title>
-        <Card.Img variant="top" src={placeHolderImage} />
+        {/* <Card.Img variant="top" src={placeHolderImage} /> */}
         {showFullDescription ? (
           <div>
             <Card.Text>{description}</Card.Text>
@@ -24,7 +24,7 @@ const ServiceCardForAbout = ({ title, description, link, imageUrl }) => {
           </div>
         ) : (
           <div>
-            <Card.Text>{description.slice(0, 100)}...</Card.Text>
+            <Card.Text>{description.slice(0, 500)}...</Card.Text>
             <div
               className="read-more-div d-flex justify-content-end"
               onClick={handleReadMoreClick}
