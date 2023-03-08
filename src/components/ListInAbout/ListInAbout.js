@@ -22,7 +22,7 @@ const ListInAbout = () => {
       <Row>
         <Col xs={12} md={12}>
           <div
-            class="d-flex justify-content-center p-3"
+            className="d-flex justify-content-center p-3"
             style={{ color: "#03755B" }}
           >
             <h3>Popular Services</h3>
@@ -31,7 +31,7 @@ const ListInAbout = () => {
         </Col>
         <Col xs={12} md={12}>
           <div
-            class="d-flex justify-content-center p-3"
+            className="d-flex justify-content-center p-3"
             style={{ color: "#e5e5e5" }}
           >
             We offer a range of traditional Malay spa treatments that will leave
@@ -41,7 +41,7 @@ const ListInAbout = () => {
         </Col>
         <Col xs={12} md={12}>
           <div
-            class="d-flex justify-content-center p-3"
+            className="d-flex justify-content-center p-3"
             style={{ color: "#e5e5e5" }}
           >
             <ol>

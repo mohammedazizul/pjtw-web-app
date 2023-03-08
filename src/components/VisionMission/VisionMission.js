@@ -9,7 +9,7 @@ const VisionMission = () => {
       <Row>
         <Col xs={12} md={12}>
           <div
-            class="d-flex justify-content-center p-3"
+            className="d-flex justify-content-center p-3"
             style={{ color: "#03755B" }}
           >
             <h2>Our Vision And Mission</h2>
@@ -18,7 +18,7 @@ const VisionMission = () => {
         </Col>
 
         <Col>
-          <div class="d-flex justify-content-center p-3">
+          <div className="d-flex justify-content-center p-3">
             <img className="visionMission-image" src={pwjtLogo} alt="" />
           </div>
         </Col>
