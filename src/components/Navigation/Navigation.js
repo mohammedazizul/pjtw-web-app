@@ -34,7 +34,7 @@ function Navigation() {
               Home
             </Nav.Link>
             <Nav.Link
-              href="/services"
+              href="/services/all"
               style={{
                 color: "#03755B",
               }}

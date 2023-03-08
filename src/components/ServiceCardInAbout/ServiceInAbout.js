@@ -12,7 +12,7 @@ const ServiceInAbout = () => {
         in Malaysia whereby one of its objective is to provide Urut Melayu for poststroke patient.
         `,
       imageUrl: "/src/assets/286X180.svg",
-      serviceLink: "/services",
+      serviceLink: "/services/all#service-1#category-1",
     },
     {
       title: "Malay Post-Natal Treatment",
@@ -30,7 +30,7 @@ const ServiceInAbout = () => {
             • Traditionally prepared edible supplements using herbs mixture
         `,
       imageUrl: "/src/assets/home-bg.jpg",
-      serviceLink: "/services",
+      serviceLink: "/services/all#service-5#category-1",
     },
     {
       title: "Poststroke Therapy",
@@ -50,7 +50,7 @@ const ServiceInAbout = () => {
       <Row>
         <Col xs={12} md={12}>
           <div
-            class="d-flex justify-content-center p-3"
+            className="d-flex justify-content-center p-3"
             style={{ color: "#e5e5e5" }}
           >
             <Row>

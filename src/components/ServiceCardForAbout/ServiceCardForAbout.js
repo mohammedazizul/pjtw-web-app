@@ -17,19 +17,27 @@ const ServiceCardForAbout = ({ title, description, link, imageUrl }) => {
         {/* <Card.Img variant="top" src={placeHolderImage} /> */}
         {showFullDescription ? (
           <div>
-            <Card.Text>{description}</Card.Text>
-            <Button variant="warning" onClick={handleReadMoreClick}>
-              Hide more
-            </Button>
-          </div>
-        ) : (
-          <div>
-            <Card.Text>{description.slice(0, 500)}...</Card.Text>
+            <Card.Text className="mb-0">{description}</Card.Text>
             <div
               className="read-more-div d-flex justify-content-end"
               onClick={handleReadMoreClick}
             >
-              Read more...
+              See less...
+            </div>
+            {/* <Button variant="warning" onClick={handleReadMoreClick}>
+              Hide more
+            </Button> */}
+          </div>
+        ) : (
+          <div>
+            <Card.Text className="mb-0">
+              {description.slice(0, 300)}...
+            </Card.Text>
+            <div
+              className="read-more-div d-flex justify-content-end"
+              onClick={handleReadMoreClick}
+            >
+              See more...
             </div>
           </div>
         )}

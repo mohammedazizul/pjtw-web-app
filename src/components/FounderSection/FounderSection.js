@@ -9,7 +9,7 @@ const FounderSection = () => {
       <Row>
         <Col xs={12} md={12}>
           <div
-            class="d-flex justify-content-center p-3"
+            className="d-flex justify-content-center p-3"
             style={{ color: "#03755B" }}
           >
             <h2>The Founder</h2>
