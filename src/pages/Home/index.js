@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "../../components/Footer/Footer";
-import Navigation from "../../components/Navigation/Navigation";
+// import Navigation from "../../components/Navigation/Navigation";
 import FeedbackCarousel from "../../components/FeedbackCarousel/FeedbackCarousel";
 import "./style.css";
 import HomeTopDiv from "../../components/HomeTopDiv/HomeTopDiv";
@@ -8,13 +8,20 @@ import ServiceInAbout from "../../components/ServiceCardInAbout/ServiceInAbout";
 
 const Index = () => {
   return (
-    <div className="homeDiv">
-      <Navigation />
+    <>
+      {/* <Navigation /> */}
       <HomeTopDiv />
       <ServiceInAbout />
       <FeedbackCarousel />
       <Footer />
-    </div>
+    </>
+    // <div className="homeDiv">
+    //   <Navigation />
+    //   <HomeTopDiv />
+    //   <ServiceInAbout />
+    //   <FeedbackCarousel />
+    //   <Footer />
+    // </div>
   );
 };
 

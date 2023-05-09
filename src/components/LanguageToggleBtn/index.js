@@ -16,6 +16,7 @@ const Index = () => {
   };
   return (
     <Button
+      className="ms-2"
       size="sm"
       variant={language === "en" ? "outline-primary" : "outline-info"}
       onClick={() => toggleLanguage()}

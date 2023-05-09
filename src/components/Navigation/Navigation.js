@@ -1,16 +1,20 @@
-// import { Image } from "react-bootstrap";
+import { Image } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-// import pjtw from "../assets/pjtw-logo.jpg";
+import pjtw from "../../assets/pjtw-logo.jpg";
 import BookNowBtn from "../BookNowBtn";
 import LanguageToggleBtn from "../LanguageToggleBtn";
 
 function Navigation() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar
+      // bg="light"
+      bg="transparent "
+      expand="lg"
+    >
       <Container>
-        {/* <Navbar.Brand href="#home">
+        <Navbar.Brand href="#home">
           <Image
             src={pjtw}
             alt="logo of Perawan Juwita Terapi Warisan"
@@ -21,17 +25,17 @@ function Navigation() {
               alignSelf: "center",
             }}
           />{" "}
-        </Navbar.Brand> */}
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link
+            {/* <Nav.Link
               href="/home"
               style={{
                 color: "#03755B",
               }}
             >
-              Home
+              HOME
             </Nav.Link>
             <Nav.Link
               href="/services/all"
@@ -39,23 +43,31 @@ function Navigation() {
                 color: "#03755B",
               }}
             >
-              Services
+              SERVICES
             </Nav.Link>
-            {/* <Nav.Link
-              href="/products"
+            <Nav.Link
+              href="/"
               style={{
                 color: "#03755B",
               }}
             >
-              Products
-            </Nav.Link> */}
+              MONTHLY PROMOS
+            </Nav.Link>
+            <Nav.Link
+              href="/"
+              style={{
+                color: "#03755B",
+              }}
+            >
+              REVIEWS
+            </Nav.Link>
             <Nav.Link
               href="/about"
               style={{
                 color: "#03755B",
               }}
             >
-              About Us
+              ABOUT US
             </Nav.Link>
             <Nav.Link
               className="justify-content-end"
@@ -65,11 +77,78 @@ function Navigation() {
                 color: "#03755B",
               }}
             >
-              Contact
+              CONTACT
             </Nav.Link>
-            <BookNowBtn text={"Book Now"} />
+            <Nav.Link
+              href="/"
+              style={{
+                color: "#03755B",
+              }}
+            >
+              SHOP
+            </Nav.Link>
+            <BookNowBtn text={"Book Now"} /> */}
           </Nav>
           <Nav>
+            <Nav.Link
+              href="/home"
+              style={{
+                color: "#03755B",
+              }}
+            >
+              HOME
+            </Nav.Link>
+            <Nav.Link
+              href="/services/all"
+              style={{
+                color: "#03755B",
+              }}
+            >
+              SERVICES
+            </Nav.Link>
+            <Nav.Link
+              href="/"
+              style={{
+                color: "#03755B",
+              }}
+            >
+              MONTHLY PROMOS
+            </Nav.Link>
+            <Nav.Link
+              href="/"
+              style={{
+                color: "#03755B",
+              }}
+            >
+              REVIEWS
+            </Nav.Link>
+            <Nav.Link
+              href="/about"
+              style={{
+                color: "#03755B",
+              }}
+            >
+              ABOUT US
+            </Nav.Link>
+            <Nav.Link
+              className="justify-content-end"
+              // href="/contact"
+              href="#bottom-contact"
+              style={{
+                color: "#03755B",
+              }}
+            >
+              CONTACT
+            </Nav.Link>
+            <Nav.Link
+              href="/"
+              style={{
+                color: "#03755B",
+              }}
+            >
+              SHOP
+            </Nav.Link>
+            <BookNowBtn text={"Book Now"} />
             <LanguageToggleBtn />
           </Nav>
         </Navbar.Collapse>

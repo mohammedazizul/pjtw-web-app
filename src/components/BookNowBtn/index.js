@@ -7,7 +7,15 @@ import { faBell } from "@fortawesome/free-solid-svg-icons";
 const bellIcon = <FontAwesomeIcon icon={faBell} shake />;
 
 const BookNowBtn = ({ text }) => (
-  <Button variant="primary" className="custom-button" href="/services/all">
+  <Button
+    // commented for new navigation
+    // style={{
+    //   marginRight: "5px",
+    // }}
+    variant="primary"
+    className="custom-button"
+    href="/services/all"
+  >
     {text} {bellIcon}
   </Button>
 );
