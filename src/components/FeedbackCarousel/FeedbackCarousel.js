@@ -71,39 +71,47 @@ const FeedbackCarousel = () => {
   };
 
   return (
-    <Container className="p-5">
-      <Col xs={12} md={12}>
-        <div
-          className="d-flex justify-content-center p-3"
-          style={{ color: "#03755B" }}
-        >
-          <h2>Customer Feedbacks</h2>
-        </div>
-        <hr className="pb-3 m-0" style={{ color: "#03755B" }} />
-      </Col>
-      <Carousel fade>
-        {feedbacks.map(
-          (feedback, index) => returnCarousel(index, feedback)
-          // <Carousel.Item key={index}>
-          //   <Card style={{ width: "100%" }} className="feedback-card">
-          //     <Card.Body>
-          //       <Card.Title>
-          //         {Array(feedback.rating).fill(startIcon)}
-          //         {startIcon}
-          //         {/* {feedback.rating} */}
-          //       </Card.Title>
-          //       <Card.Text>{feedback.message}</Card.Text>
-          //       <Card.Footer>
-          //         <small className="text-muted">
-          //           {feedback.customerName}, {feedback.address}
-          //         </small>
-          //       </Card.Footer>
-          //     </Card.Body>
-          //   </Card>
-          // </Carousel.Item>
-        )}
-      </Carousel>
-    </Container>
+    <div
+      style={{
+        backgroundColor: "#F1DEC9",
+        // border: "3px solid green",
+        // height: "50vh",
+      }}
+    >
+      <Container className="p-5">
+        <Col xs={12} md={12}>
+          <div
+            className="d-flex justify-content-center p-3"
+            style={{ color: "#03755B" }}
+          >
+            <h2>Customer Feedbacks</h2>
+          </div>
+          <hr className="pb-3 m-0" style={{ color: "#03755B" }} />
+        </Col>
+        <Carousel fade>
+          {feedbacks.map(
+            (feedback, index) => returnCarousel(index, feedback)
+            // <Carousel.Item key={index}>
+            //   <Card style={{ width: "100%" }} className="feedback-card">
+            //     <Card.Body>
+            //       <Card.Title>
+            //         {Array(feedback.rating).fill(startIcon)}
+            //         {startIcon}
+            //         {/* {feedback.rating} */}
+            //       </Card.Title>
+            //       <Card.Text>{feedback.message}</Card.Text>
+            //       <Card.Footer>
+            //         <small className="text-muted">
+            //           {feedback.customerName}, {feedback.address}
+            //         </small>
+            //       </Card.Footer>
+            //     </Card.Body>
+            //   </Card>
+            // </Carousel.Item>
+          )}
+        </Carousel>
+      </Container>
+    </div>
   );
 };
 

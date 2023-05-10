@@ -46,29 +46,37 @@ const ServiceInAbout = () => {
   ];
 
   return (
-    <Container>
-      <Row>
-        <Col xs={12} md={12}>
-          <div
-            className="d-flex justify-content-center p-3"
-            style={{ color: "#e5e5e5" }}
-          >
-            <Row>
-              {services.map((service, index) => (
-                <Col md={12} key={index}>
-                  <ServiceCardForAbout
-                    title={service.title}
-                    description={service.description}
-                    imageUrl={service.imageUrl}
-                    link={service.serviceLink}
-                  />
-                </Col>
-              ))}
-            </Row>
-          </div>
-        </Col>
-      </Row>
-    </Container>
+    <div
+      style={{
+        backgroundColor: "#F1DEC9",
+        // border: "3px solid green",
+        // height: "50vh",
+      }}
+    >
+      <Container>
+        <Row>
+          <Col xs={12} md={12}>
+            <div
+              className="d-flex justify-content-center p-3"
+              style={{ color: "#e5e5e5" }}
+            >
+              <Row>
+                {services.map((service, index) => (
+                  <Col md={12} key={index}>
+                    <ServiceCardForAbout
+                      title={service.title}
+                      description={service.description}
+                      imageUrl={service.imageUrl}
+                      link={service.serviceLink}
+                    />
+                  </Col>
+                ))}
+              </Row>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    </div>
   );
 };
 

@@ -35,7 +35,8 @@ function Navigation() {
             {/* <Nav.Link
               href="/home"
               style={{
-                color: "#03755B",
+                // color: "#03755B",
+color: "#594545",
               }}
             >
               HOME
@@ -43,7 +44,8 @@ function Navigation() {
             <Nav.Link
               href="/services/all"
               style={{
-                color: "#03755B",
+                // color: "#03755B",
+color: "#594545",
               }}
             >
               SERVICES
@@ -51,7 +53,8 @@ function Navigation() {
             <Nav.Link
               href="/"
               style={{
-                color: "#03755B",
+                // color: "#03755B",
+color: "#594545",
               }}
             >
               MONTHLY PROMOS
@@ -59,7 +62,8 @@ function Navigation() {
             <Nav.Link
               href="/"
               style={{
-                color: "#03755B",
+                // color: "#03755B",
+color: "#594545",
               }}
             >
               REVIEWS
@@ -67,7 +71,8 @@ function Navigation() {
             <Nav.Link
               href="/about"
               style={{
-                color: "#03755B",
+                // color: "#03755B",
+color: "#594545",
               }}
             >
               ABOUT US
@@ -77,7 +82,8 @@ function Navigation() {
               // href="/contact"
               href="#bottom-contact"
               style={{
-                color: "#03755B",
+                // color: "#03755B",
+color: "#594545",
               }}
             >
               CONTACT
@@ -85,7 +91,8 @@ function Navigation() {
             <Nav.Link
               href="/"
               style={{
-                color: "#03755B",
+                // color: "#03755B",
+color: "#594545",
               }}
             >
               SHOP
@@ -96,7 +103,8 @@ function Navigation() {
             <Nav.Link
               href="/home"
               style={{
-                color: "#03755B",
+                // color: "#03755B",
+                color: "#594545",
               }}
             >
               HOME
@@ -104,7 +112,8 @@ function Navigation() {
             <Nav.Link
               href="/services/all"
               style={{
-                color: "#03755B",
+                // color: "#03755B",
+                color: "#594545",
               }}
             >
               SERVICES
@@ -112,7 +121,8 @@ function Navigation() {
             <Nav.Link
               href="/"
               style={{
-                color: "#03755B",
+                // color: "#03755B",
+                color: "#594545",
               }}
             >
               MONTHLY PROMOS
@@ -120,7 +130,8 @@ function Navigation() {
             <Nav.Link
               href="/"
               style={{
-                color: "#03755B",
+                // color: "#03755B",
+                color: "#594545",
               }}
             >
               REVIEWS
@@ -128,7 +139,8 @@ function Navigation() {
             <Nav.Link
               href="/about"
               style={{
-                color: "#03755B",
+                // color: "#03755B",
+                color: "#594545",
               }}
             >
               ABOUT US
@@ -138,7 +150,8 @@ function Navigation() {
               // href="/contact"
               href="#bottom-contact"
               style={{
-                color: "#03755B",
+                // color: "#03755B",
+                color: "#594545",
               }}
             >
               CONTACT
@@ -146,7 +159,8 @@ function Navigation() {
             <Nav.Link
               href="/"
               style={{
-                color: "#03755B",
+                // color: "#03755B",
+                color: "#594545",
               }}
             >
               SHOP
