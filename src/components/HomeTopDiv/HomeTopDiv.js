@@ -13,15 +13,7 @@ const HomeTopDiv = () => {
     <div className="bg-img">
       <div className="container">
         <Navigation />
-        <div
-          style={{
-            height: "80vh",
-            border: "1px solid #F1DEC9",
-            marginBottom: "73px",
-            // filter: "blur(1px)",
-            backgroundColor: "rgba(255, 255, 255, 0.3)",
-          }}
-        >
+        <div className="homeTopMainDiv">
           <Container className="p-0 m-0">
             <Row>
               <Col md={6} sm={12}>
@@ -124,11 +116,9 @@ const HomeTopDiv = () => {
       <ServiceInAbout />
       <div
         className="promoMainDiv"
-        style={
-          {
-            // border: "3px solid green",
-          }
-        }
+        // style={{
+        //   border: "3px solid green",
+        // }}
       >
         <Row className="d-flex justify-content-center">
           <div className="d-flex justify-content-center pb-3">
@@ -213,22 +203,24 @@ const HomeTopDiv = () => {
           }}
         >
           <div className="sixthRefFirstDiv">
-            <Row>
-              <div className="d-flex justify-content-center p-3 pt-5">
-                <h1 className="sixthRefH1">YOU OWE YOURSELF THIS MOMENT</h1>
-              </div>
-            </Row>
-            <Row>
-              <div className="d-flex justify-content-center makeAppointDiv sixthRefDiv2">
-                <a
-                  className="makeAppointA makeAppointA2"
-                  href="https://bit.ly/3NqgGQJ"
-                  target="blank"
-                >
-                  MAKE AN APPOINTMENT
-                </a>
-              </div>
-            </Row>
+            <div className="sixthRefSecondDiv">
+              <Row>
+                <div className="sixthRefThirdDiv">
+                  <h1 className="sixthRefH1">YOU OWE YOURSELF THIS MOMENT</h1>
+                </div>
+              </Row>
+              <Row>
+                <div className="d-flex justify-content-center makeAppointDiv sixthRefDiv2">
+                  <a
+                    className="makeAppointA makeAppointA2"
+                    href="https://bit.ly/3NqgGQJ"
+                    target="blank"
+                  >
+                    MAKE AN APPOINTMENT
+                  </a>
+                </div>
+              </Row>
+            </div>
           </div>
         </Row>
         <Row

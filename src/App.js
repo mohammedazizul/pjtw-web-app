@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import Product from "./pages/Products";
 import Service from "./pages/Services";
 import NotFound from "./pages/NotFound";
+import "./App.css";
 
 const router = createBrowserRouter([
   {

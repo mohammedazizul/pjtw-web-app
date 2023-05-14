@@ -1,3 +1,29 @@
+/* new navigation css */
+.bg-img {
+  /* The image used */
+  /* background-image: url("../../assets/home-bg.jpg"); */
+  background-image: url("../../assets/home-bg-image.png");
+ 
+  /* min-height: 380px; */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+.homeTopMainDiv {
+  height: 80vh;
+  /* border: 1px solid #F1DEC9; */
+  margin-bottom: 73px;
+  /* filter: blur(1px); */
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
 .HomeTopDiv-image {
   height: 300px;
   width: 300px;
@@ -16,17 +42,16 @@
   font-weight: 600;
   font-size: 20px;
   padding: 30px;
-  color: #F1DEC9;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #594545;
   font-style: italic;
 }
 
 .makeAppointDiv {
-  padding-top: 80px;
+  /* padding-top: 80px; */
 }
 
 .sixthRefDiv2 {
-  padding-top: 20px;
+  /* padding-top: 20px; */
 }
 
 .makeAppointA {
@@ -67,9 +92,9 @@
 }
 
 .sixthRefH1 {
-  color: #F1DEC9;
+  color: #594545;
   font-size: 50px;
-  padding-top: 100px;
+  padding-top: 160px;
 }
 
 .fourthRefH1 {
@@ -99,37 +124,19 @@
   border-bottom: 1px solid #594545;
 }
 
-/* new navigation css */
-.bg-img {
-  /* The image used */
-  /* background-image: url("../../assets/home-bg.jpg"); */
-  background-image: url("../../assets/home-bg-image.png");
-
-  /* Add the blur effect */
-  /* filter: blur(4px); */
-  /* -webkit-filter: blur(8px); */
-  
-  /* min-height: 380px; */
-  height: 100vh;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-  /* Needed to position the navbar */
-  position: relative;
-}
-
-/* The navbar */
-.topnav {
-  overflow: hidden;
-  /* background-color: #333; */
-}
-
 .paymentIconImg {
   height: 100px;
   width: 400px;
+}
+
+.sixthRefSecondDiv {
+  background-color: rgba(255, 255, 255, 0.6);
+  height: 450px;
+}
+
+.sixthRefThirdDiv {
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 991px) {
@@ -161,8 +168,11 @@
    }
 
    .sixthRefH1 {
-    font-size: 30px;
-    padding-top: 150px;
+    font-size: 25px;
+    padding-top: 200px;
+    margin:auto;
+    line-height:51px;
+    vertical-align:middle;
   }
 
   .promoMainDiv {
@@ -171,6 +181,11 @@
 
   .topPadding {
     padding-top: 20px;
+  }
+
+  .sixthRefThirdDiv {
+    color: #594545;
+    text-align:center;
   }
 }
  
