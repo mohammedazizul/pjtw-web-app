@@ -210,7 +210,7 @@ const HomeTopDiv = () => {
                 </div>
               </Row>
               <Row>
-                <div className="d-flex justify-content-center makeAppointDiv sixthRefDiv2">
+                <div className="d-flex justify-content-center makeAppointDiv">
                   <a
                     className="makeAppointA makeAppointA2"
                     href="https://bit.ly/3NqgGQJ"
