@@ -1,39 +1,63 @@
 .HomeTopDiv-image {
-  border: 8px solid #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-  height: 50vh;
+  height: 300px;
+  width: 300px;
 }
 
 .HomeTopDiv-logo {
-  padding: 5px;
-  margin-top: 20px;
-  height: 50vh;
+  margin-top: 100px;
 }
 
 .HomeTopDiv-details {
-  padding: 5px;
-  margin-top: 20px;
-  height: 50vh;
-  border: 1px solid #fff;
+  margin-top: 180px;
   border-radius: 5px;
 }
 
 .HomeTopDiv-p { 
-  width: 100vw;
-  margin: 0px;
-  padding-top: 20vh;
-  padding-bottom: 20vh;
-  color: rgb(3, 117, 91);
   font-weight: 600;
-  font-size: large;
+  font-size: 20px;
+  padding: 30px;
+  color: #F1DEC9;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+}
+
+.makeAppointDiv {
+  padding-top: 80px;
+}
+
+.makeAppointA {
+  color: #F1DEC9;
+  background-color: #594545;
+  padding: 10px;
+  width: 20vw;
+  border: 0px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.makeAppointA:hover {
+  text-decoration: none;
+  transform: translateY(-3px);
+  box-shadow: 0px 8px 20px #F1DEC9;
+  background-color: #F1DEC9;
+  color: #594545;
+  font-weight: 600;
+  transition: transform 2.05s ease-in-out;
+  -webkit-transition: transform 1.05s ease-in-out;
+  -moz-transition:transform 1.05s ease-in-out;
+  -ms-transition:transform 1.05s ease-in-out;
 }
 
 /* new navigation css */
-
 .bg-img {
   /* The image used */
   /* background-image: url("../../assets/home-bg.jpg"); */
-  background-image: url("../../assets/home-bg-1.png");
+  background-image: url("../../assets/home-bg-image.png");
+
+  /* Add the blur effect */
+  /* filter: blur(4px); */
+  /* -webkit-filter: blur(8px); */
   
   /* min-height: 380px; */
   height: 100vh;
@@ -52,3 +76,33 @@
   overflow: hidden;
   /* background-color: #333; */
 }
+
+@media (max-width: 991px) {
+  .HomeTopDiv-image {
+    height: 200px;
+    width: 200px;
+  }
+
+  .HomeTopDiv-logo {
+    margin-top: 50px;
+  }
+
+  .HomeTopDiv-details {
+    margin-top: 0px;
+    padding: 50px;
+    padding-bottom: 30px;
+  }
+
+  .HomeTopDiv-p { 
+    color: #594545;
+  }
+
+  .makeAppointDiv {
+    padding-top: 0px;
+  }
+
+  .makeAppointA {
+    width: 50vw;
+   }
+}
+ 

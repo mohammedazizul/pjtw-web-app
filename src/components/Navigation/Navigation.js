@@ -104,7 +104,8 @@ color: "#594545",
               href="/home"
               style={{
                 // color: "#03755B",
-                color: "#594545",
+                // color: "#594545",
+                color: "#F1DEC9",
               }}
             >
               HOME
@@ -113,7 +114,8 @@ color: "#594545",
               href="/services/all"
               style={{
                 // color: "#03755B",
-                color: "#594545",
+                // color: "#594545",
+                color: "#F1DEC9",
               }}
             >
               SERVICES
@@ -122,7 +124,8 @@ color: "#594545",
               href="/"
               style={{
                 // color: "#03755B",
-                color: "#594545",
+                // color: "#594545",
+                color: "#F1DEC9",
               }}
             >
               MONTHLY PROMOS
@@ -131,7 +134,8 @@ color: "#594545",
               href="/"
               style={{
                 // color: "#03755B",
-                color: "#594545",
+                // color: "#594545",
+                color: "#F1DEC9",
               }}
             >
               REVIEWS
@@ -140,7 +144,8 @@ color: "#594545",
               href="/about"
               style={{
                 // color: "#03755B",
-                color: "#594545",
+                // color: "#594545",
+                color: "#F1DEC9",
               }}
             >
               ABOUT US
@@ -151,7 +156,8 @@ color: "#594545",
               href="#bottom-contact"
               style={{
                 // color: "#03755B",
-                color: "#594545",
+                // color: "#594545",
+                color: "#F1DEC9",
               }}
             >
               CONTACT
@@ -160,7 +166,8 @@ color: "#594545",
               href="/"
               style={{
                 // color: "#03755B",
-                color: "#594545",
+                // color: "#594545",
+                color: "#F1DEC9",
               }}
             >
               SHOP

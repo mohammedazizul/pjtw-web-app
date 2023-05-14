@@ -6,54 +6,62 @@ import ServiceInAbout from "../ServiceCardInAbout/ServiceInAbout";
 import FeedbackCarousel from "../FeedbackCarousel/FeedbackCarousel";
 import Footer from "../Footer/Footer";
 // import dummyImage from "../../assets/286X180.svg";
+import logo from "../../assets/pjtw-logo.jpg";
 
 const HomeTopDiv = () => {
   return (
     <div className="bg-img">
-      <div
-        className="container"
-        style={
-          {
-            // backgroundColor: "#F1DEC9",
-          }
-        }
-      >
+      <div className="container">
         <Navigation />
         <div
           style={{
-            // margin: "0px",
-            // position: "absolute",
-            // top: "80%",
-            // left: "50%",
-            // -ms-transform: translate(-50%, -50%);
-            // transform: translate(-50%, -50%);
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "flex-end",
             height: "80vh",
-            // border: "3px solid green",
+            border: "1px solid #F1DEC9",
             marginBottom: "73px",
+            // filter: "blur(1px)",
+            backgroundColor: "rgba(255, 255, 255, 0.3)",
           }}
         >
-          <Button
-            style={{
-              color: "#F1DEC9",
-              backgroundColor: "#594545",
-              padding: "10px",
-              width: "20vw",
-              border: "0px",
-            }}
-            onClick={() => alert("Sorry, the feature is under development!")}
-          >
-            MAKE AN APPOINTMENT
-          </Button>
+          <Container className="p-0 m-0">
+            <Row>
+              <Col md={6} sm={12}>
+                <div className="d-flex justify-content-center HomeTopDiv-logo">
+                  <img
+                    src={logo}
+                    alt="pjtw logo"
+                    className="img-fluid rounded HomeTopDiv-image"
+                  />
+                </div>
+              </Col>
+
+              <Col md={6} sm={12}>
+                <div className="d-flex justify-content-center HomeTopDiv-details">
+                  <p className="text-center HomeTopDiv-p">
+                    “Bismillahirahmanirahim… Beramalah dengan nama Tuhan mu yang
+                    maha mengetahui segala yang ghaib dan nyata. Moga beroleh
+                    manfaat dunia & akhirat…”
+                  </p>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <div className="d-flex justify-content-center makeAppointDiv">
+                <a
+                  className="makeAppointA"
+                  href="https://bit.ly/3NqgGQJ"
+                  target="blank"
+                >
+                  MAKE AN APPOINTMENT
+                </a>
+              </div>
+            </Row>
+          </Container>
         </div>
       </div>
       <div
         style={{
           backgroundColor: "#F1DEC9",
           // border: "3px solid green",
-          // height: "50vh",
         }}
       >
         <Container>
@@ -72,7 +80,10 @@ const HomeTopDiv = () => {
               >
                 YOUR TRADITIONAL COMPANION
               </h1>
-              <p style={{ fontSize: "14px", textAlign: "justify" }}>
+              <p
+                className="pt-4"
+                style={{ fontSize: "14px", textAlign: "justify" }}
+              >
                 The leading brand in providing Malay Traditional Concept
                 Spa/Mobile Spa Therapy & Post-Natal Care in Malaysia and
                 globally. Our goal is to dignify and maintain the authenticity
@@ -82,26 +93,30 @@ const HomeTopDiv = () => {
                 massage known as Urut Melayu, malay post-natal treatment and
                 provide treatment for poststroke patients.
               </p>
-              <p style={{ fontSize: "14px", textAlign: "justify" }}>
+              <p
+                className="pt-4"
+                style={{ fontSize: "14px", textAlign: "justify" }}
+              >
                 To guide and active support role in traditional malay post-natal
                 care to preserve health and healing of the physical and mental
                 health and also to prevent postpartum depression and anxiety by
                 specific diet and treatment for life well-being.
               </p>
-              <Button
-                style={{
-                  color: "#F1DEC9",
-                  backgroundColor: "#594545",
-                  padding: "10px",
-                  // width: "20vw",
-                  border: "0px",
-                }}
-                onClick={() =>
-                  alert("Sorry, the feature is under development!")
-                }
-              >
-                Reserver Now
-              </Button>
+              <div className="d-flex justify-content-end pt-4">
+                <Button
+                  style={{
+                    color: "#F1DEC9",
+                    backgroundColor: "#594545",
+                    padding: "10px",
+                    border: "0px",
+                  }}
+                  onClick={() =>
+                    alert("Sorry, the feature is under development!")
+                  }
+                >
+                  Reserver Now
+                </Button>
+              </div>
             </Col>
           </Row>
         </Container>
@@ -111,32 +126,6 @@ const HomeTopDiv = () => {
       <Footer />
     </div>
   );
-
-  // return (
-  //   <Container className="pb-3">
-  //     <Row>
-  //       <Col sm={4}>
-  //         <div className="d-flex justify-content-center HomeTopDiv-logo">
-  //           <img
-  //             src={pjtwLogo}
-  //             alt="pjtw logo"
-  //             className="img-fluid rounded HomeTopDiv-image"
-  //           />
-  //         </div>
-  //       </Col>
-
-  //       <Col sm={8}>
-  //         <div className="d-flex justify-content-center HomeTopDiv-details">
-  //           <p className="text-center HomeTopDiv-p">
-  //             “Bismillahirahmanirahim… Beramalah dengan nama Tuhan mu yang maha
-  //             mengetahui segala yang ghaib dan nyata. Moga beroleh manfaat dunia
-  //             & akhirat…”
-  //           </p>
-  //         </div>
-  //       </Col>
-  //     </Row>
-  //   </Container>
-  // );
 };
 
 export default HomeTopDiv;
