@@ -1,11 +1,11 @@
 import React from "react";
 import "./HomeTopDiv.css";
 import Navigation from "../Navigation/Navigation";
-import { Button, Col, Container, Image, Row } from "react-bootstrap";
+import { Button, Card, Col, Container, Image, Row } from "react-bootstrap";
 import ServiceInAbout from "../ServiceCardInAbout/ServiceInAbout";
 import FeedbackCarousel from "../FeedbackCarousel/FeedbackCarousel";
 import Footer from "../Footer/Footer";
-// import dummyImage from "../../assets/286X180.svg";
+import dummyImage from "../../assets/286X180.svg";
 import logo from "../../assets/pjtw-logo.jpg";
 
 const HomeTopDiv = () => {
@@ -122,6 +122,82 @@ const HomeTopDiv = () => {
         </Container>
       </div>
       <ServiceInAbout />
+      <div
+        className="promoMainDiv"
+        style={
+          {
+            // border: "3px solid green",
+          }
+        }
+      >
+        <Row className="d-flex justify-content-center">
+          <div className="d-flex justify-content-center pb-3">
+            <h1 className="fourthRefH1">PROMOTION</h1>
+          </div>
+        </Row>
+        <Row className="d-flex justify-content-center">
+          <Col>
+            <div className="d-flex justify-content-center">
+              <Card style={{ width: "18rem" }}>
+                <Card.Img
+                  variant="top"
+                  src={dummyImage}
+                  onClick={() =>
+                    alert("Sorry, the feature is under development!")
+                  }
+                />
+                <Card.Body
+                  style={{
+                    backgroundColor: "#F1DEC9",
+                    border: "1px solid #594545",
+                    borderBottomLeftRadius: "5px",
+                    borderBottomRightRadius: "5px",
+                  }}
+                >
+                  <Button
+                    className="promotionBtn"
+                    onClick={() =>
+                      alert("Sorry, the feature is under development!")
+                    }
+                  >
+                    Go somewhere
+                  </Button>
+                </Card.Body>
+              </Card>
+            </div>
+          </Col>
+          <Col className="topPadding">
+            <div className="d-flex justify-content-center">
+              <Card style={{ width: "18rem" }}>
+                <Card.Img
+                  variant="top"
+                  src={dummyImage}
+                  onClick={() =>
+                    alert("Sorry, the feature is under development!")
+                  }
+                />
+                <Card.Body
+                  style={{
+                    backgroundColor: "#F1DEC9",
+                    border: "1px solid #594545",
+                    borderBottomLeftRadius: "5px",
+                    borderBottomRightRadius: "5px",
+                  }}
+                >
+                  <Button
+                    className="promotionBtn"
+                    onClick={() =>
+                      alert("Sorry, the feature is under development!")
+                    }
+                  >
+                    Go somewhere
+                  </Button>
+                </Card.Body>
+              </Card>
+            </div>
+          </Col>
+        </Row>
+      </div>
       <FeedbackCarousel />
       <div
         style={{

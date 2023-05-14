@@ -67,9 +67,36 @@
 }
 
 .sixthRefH1 {
-  color: #594545;
+  color: #F1DEC9;
   font-size: 50px;
   padding-top: 100px;
+}
+
+.fourthRefH1 {
+  color: #594545;
+  font-size: 50px;
+  padding-top: 20px;
+}
+
+.promotionBtn {
+  background-color: #594545;
+  color: #F1DEC9;
+  border-color: #594545;
+}
+
+.promotionBtn:hover {
+  background-color: #F1DEC9;
+  color: #594545;
+  border-color: #594545;
+}
+
+.promoMainDiv {
+  background-color: #F1DEC9;
+  height: 450px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  border-top: 1px solid #594545;
+  border-bottom: 1px solid #594545;
 }
 
 /* new navigation css */
@@ -136,6 +163,14 @@
    .sixthRefH1 {
     font-size: 30px;
     padding-top: 150px;
+  }
+
+  .promoMainDiv {
+    height: 700px;
+  }
+
+  .topPadding {
+    padding-top: 20px;
   }
 }
  
