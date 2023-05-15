@@ -121,7 +121,7 @@ color: "#594545",
               SERVICES
             </Nav.Link>
             <Nav.Link
-              href="/"
+              href="#promotions"
               style={{
                 // color: "#03755B",
                 // color: "#594545",
@@ -131,7 +131,7 @@ color: "#594545",
               MONTHLY PROMOS
             </Nav.Link>
             <Nav.Link
-              href="/"
+              href="#reviews"
               style={{
                 // color: "#03755B",
                 // color: "#594545",
