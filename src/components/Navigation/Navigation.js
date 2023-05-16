@@ -14,7 +14,7 @@ function Navigation() {
       expand="lg"
     >
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/home">
           <Image
             src={pjtw}
             alt="logo of Perawan Juwita Terapi Warisan"
@@ -24,7 +24,7 @@ function Navigation() {
               weight: "50px",
               alignSelf: "center",
             }}
-          />{" "}
+          />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"
@@ -100,7 +100,7 @@ color: "#594545",
             <BookNowBtn text={"Book Now"} /> */}
           </Nav>
           <Nav>
-            <Nav.Link
+            {/* <Nav.Link
               href="/home"
               style={{
                 // color: "#03755B",
@@ -109,7 +109,7 @@ color: "#594545",
               }}
             >
               HOME
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link
               href="/services/all"
               style={{
@@ -130,7 +130,7 @@ color: "#594545",
             >
               MONTHLY PROMOS
             </Nav.Link>
-            <Nav.Link
+            {/* <Nav.Link
               href="#reviews"
               style={{
                 // color: "#03755B",
@@ -139,7 +139,7 @@ color: "#594545",
               }}
             >
               REVIEWS
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link
               href="/about"
               style={{
