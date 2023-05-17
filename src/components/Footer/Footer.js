@@ -1,11 +1,13 @@
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome, faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faHome, faEnvelope, faPhone,  faMapLocationDot } from "@fortawesome/free-solid-svg-icons";
 import {
   faInstagram,
   faFacebook,
   faTiktok,
+  faTelegram,
+  faWaze
 } from "@fortawesome/free-brands-svg-icons";
 import DevFooter from "../DevFooter/DevFooter";
 import pjtw from "../../assets/pjtw-logo.jpg"
@@ -17,6 +19,9 @@ const Footer = () => {
   const instagramIcon = <FontAwesomeIcon icon={faInstagram} size="lg" />;
   const faceBookIcon = <FontAwesomeIcon icon={faFacebook} size="lg" />;
   const tikTokIcon = <FontAwesomeIcon icon={faTiktok} size="lg" />;
+  const telegramIcon = <FontAwesomeIcon icon={faTelegram} size="lg" />;
+  const wazeIcon = <FontAwesomeIcon icon={faWaze} size="lg" />;
+  const mapIcon = <FontAwesomeIcon icon={faMapLocationDot} size="lg" />;
 
   return (
     <div
@@ -36,10 +41,10 @@ const Footer = () => {
               </div>
               <div style={{ paddingTop: "15px", paddingBottom: "15px", borderBottom: "1px solid gray" }}>
                 <p className="mb-2">
-                  {homeIcon} USJ19 Mall, Subang Jaya, Malaysia
+                  {homeIcon} E1-04-02, Tamarind Square 63000 Cyberjaya Selangor
                 </p>
-                <p className="mb-2">{envelopIcon} info@example.com</p>
-                <p className="mb-2">{phoneIcon} +60 11 359 69 735</p>
+                <p className="mb-2">{envelopIcon}  perawanjuwita@gmail.com</p>
+                <p className="mb-2">{phoneIcon} +60 11 355 86 706</p>
               </div>
               <div style={{ paddingTop: "15px" }}>
                 <a
@@ -65,6 +70,30 @@ const Footer = () => {
                   rel="noreferrer"
                 >
                   {tikTokIcon}
+                </a>
+                <a
+                  href="https://t.me/perawanjuwita"
+                  className="me-4 text-reset"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {telegramIcon}
+                </a>
+                <a
+                  href="https://waze.com/ul/hw2828g93g"
+                  className="me-4 text-reset"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {wazeIcon}
+                </a>
+                <a
+                  href="https://maps.app.goo.gl/F39sCz3TuMxDL9u98"
+                  className="me-4 text-reset"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {mapIcon}
                 </a>
               </div>
             </Col>
@@ -213,7 +242,7 @@ const Footer = () => {
               <h6 className="text-uppercase fw-bold mb-4">Spa Hours</h6>
               <Row>
                 <Col>Monday</Col>
-                <Col>9 am - 7 pm</Col>
+                <Col>Closed</Col>
               </Row>
               <Row>
                 <Col>Tuesday</Col>
