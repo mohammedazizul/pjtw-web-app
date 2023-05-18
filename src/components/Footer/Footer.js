@@ -110,11 +110,8 @@ const Footer = () => {
                   }}
                 /></div>
 
-              <p className="mb-2" style={{ fontSize: "small" }}>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              </p>
-              <p className="mb-2" style={{ fontSize: "small" }}>
-                Expedita, consequatur! Vel, similique. Omnis ut sit magnam, deleniti a corrupti quis quae cumque.
+              <p className="mb-2" >
+                Perawan Juwita Terapi Warisan is located at 4th floor opposite the event hall.
               </p>
             </Col>
 
@@ -132,7 +129,7 @@ const Footer = () => {
               <p className="mb-2">
                 <a
                   style={{ textDecoration: "none" }}
-                  href="/#promotions"
+                  href="/home#promotions"
                   className="text-reset"
                 >
                   Monthly Promos
@@ -141,7 +138,7 @@ const Footer = () => {
               <p className="mb-2">
                 <a
                   style={{ textDecoration: "none" }}
-                  href="/"
+                  href="/shop"
                   className="text-reset"
                 >
                   Shop
@@ -150,7 +147,7 @@ const Footer = () => {
               <p className="mb-2">
                 <a
                   style={{ textDecoration: "none" }}
-                  href="/"
+                  href="/faq"
                   className="text-reset"
                 >
                   FAQ
@@ -159,7 +156,7 @@ const Footer = () => {
               <p className="mb-2">
                 <a
                   style={{ textDecoration: "none" }}
-                  href="/"
+                  href="/terms-and-conditions"
                   className="text-reset"
                 >
                   Terms & Conditions
@@ -168,7 +165,7 @@ const Footer = () => {
               <p className="mb-2">
                 <a
                   style={{ textDecoration: "none" }}
-                  href="/"
+                  href="/privacy-policy"
                   className="text-reset"
                 >
                   Privacy Policy
