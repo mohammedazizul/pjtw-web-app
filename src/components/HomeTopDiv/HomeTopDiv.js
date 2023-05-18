@@ -368,14 +368,9 @@ const HomeTopDiv = () => {
         <Row
           style={{
             // border: "3px solid blue",
-            // height: "150px",
           }}
         >
           <div className="d-flex justify-content-center paymentLogoDiv">
-            {/* <Image
-              className="paymentIconImg"
-              src="https://as1.ftcdn.net/v2/jpg/05/38/53/76/1000_F_538537674_qpvDKu7W7XlMgCdJsmd7Bk9NpWIacy4X.webp"
-            /> */}
             <Row>
               <Col>
                 <Image
