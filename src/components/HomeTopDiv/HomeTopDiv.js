@@ -73,13 +73,9 @@ const HomeTopDiv = () => {
               />
             </Col>
             <Col className="pt-5" md={6} sm={12}>
-              <h1
-                style={{
-                  color: "#594545",
-                }}
-              >
-                YOUR TRADITIONAL COMPANION
-              </h1>
+              <div className="d-flex justify-content-center">
+                <h1 className="home-h1">YOUR TRADITIONAL COMPANION</h1>
+              </div>
               <p
                 className="pt-4"
                 style={{ fontSize: "14px", textAlign: "justify" }}
@@ -124,8 +120,8 @@ const HomeTopDiv = () => {
       {/* <ServiceInAbout /> */}
       <div className="homeServicesMainDiv">
         <Row className="d-flex justify-content-center">
-          <div className="d-flex justify-content-center pb-3">
-            <h1 className="fourthRefH1">SERVICES</h1>
+          <div className="d-flex justify-content-center">
+            <h1 className="home-h1">SERVICES</h1>
           </div>
         </Row>
         <Row xs={1} md={2} className="g-4">
@@ -209,13 +205,13 @@ const HomeTopDiv = () => {
       <section
         className="promoMainDiv"
         id="promotions"
-        // style={{
-        //   border: "3px solid green",
-        // }}
+      // style={{
+      //   border: "3px solid green",
+      // }}
       >
         <Row className="d-flex justify-content-center">
-          <div className="d-flex justify-content-center pb-3">
-            <h1 className="fourthRefH1">PROMOTION</h1>
+          <div className="d-flex justify-content-center">
+            <h1 className="home-h1">PROMOTION</h1>
           </div>
         </Row>
         <Row className="d-flex justify-content-center">
@@ -284,8 +280,8 @@ const HomeTopDiv = () => {
       {/* <FeedbackCarousel /> */}
       <section className="feedbackSection" id="reviews">
         <Row className="d-flex justify-content-center">
-          <div className="d-flex justify-content-center pb-3">
-            <h1 className="fifthRefH1">PEOPLE SAY ABOUT US</h1>
+          <div className="d-flex justify-content-center">
+            <h1 className="home-h1">PEOPLE SAY ABOUT US</h1>
           </div>
         </Row>
         <Row className="d-flex justify-content-center">
@@ -347,8 +343,8 @@ const HomeTopDiv = () => {
           <div className="sixthRefFirstDiv">
             <div className="sixthRefSecondDiv">
               <Row>
-                <div className="sixthRefThirdDiv">
-                  <h1 className="sixthRefH1">YOU OWE YOURSELF THIS MOMENT</h1>
+                <div className="d-flex justify-content-center sixthRefThirdDiv">
+                  <h1 className="home-h1 sixthRefH1">YOU OWE YOURSELF THIS MOMENT</h1>
                 </div>
               </Row>
               <Row>
