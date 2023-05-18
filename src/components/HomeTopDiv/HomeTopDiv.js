@@ -15,6 +15,10 @@ import {
 import Footer from "../Footer/Footer";
 // import dummyImage from "../../assets/286X180.svg";
 import logo from "../../assets/pjtw-logo.jpg";
+import mastercard from "../../assets/payment-logo/mastercard.png"
+import visa from "../../assets/payment-logo/visa.png"
+import paypal from "../../assets/payment-logo/paypal.png"
+import atome from "../../assets/payment-logo/atome.png"
 
 const HomeTopDiv = () => {
   return (
@@ -364,14 +368,40 @@ const HomeTopDiv = () => {
         <Row
           style={{
             // border: "3px solid blue",
-            height: "150px",
+            // height: "150px",
           }}
         >
-          <div className="d-flex justify-content-center p-4">
-            <Image
+          <div className="d-flex justify-content-center paymentLogoDiv">
+            {/* <Image
               className="paymentIconImg"
               src="https://as1.ftcdn.net/v2/jpg/05/38/53/76/1000_F_538537674_qpvDKu7W7XlMgCdJsmd7Bk9NpWIacy4X.webp"
-            />
+            /> */}
+            <Row>
+              <Col>
+                <Image
+                  className="paymentIconImg"
+                  src={mastercard}
+                />
+              </Col>
+              <Col>
+                <Image
+                  className="paymentIconImg"
+                  src={visa}
+                />
+              </Col>
+              <Col>
+                <Image
+                  className="paymentIconImg"
+                  src={paypal}
+                />
+              </Col>
+              <Col>
+                <Image
+                  className="paymentIconImg"
+                  src={atome}
+                />
+              </Col>
+            </Row>
           </div>
         </Row>
       </div>

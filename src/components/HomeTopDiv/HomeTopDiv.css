@@ -120,7 +120,7 @@
 
 .paymentIconImg {
   height: 100px;
-  width: 400px;
+  width: 100px;
 }
 
 .sixthRefSecondDiv {
@@ -168,6 +168,10 @@
 
 .fixed-height {
   max-height: 400px;
+}
+
+.paymentLogoDiv {
+  padding-top: 20px;
 }
 
 @media (max-width: 991px) {
@@ -225,6 +229,15 @@
 
   .home-h1 {
     font-size: 30px;
+  }
+
+  .paymentLogoDiv {
+    padding-top: 40px;
+  }
+
+  .paymentIconImg {
+    height: 75px;
+    width: 75px;
   }
 }
  
