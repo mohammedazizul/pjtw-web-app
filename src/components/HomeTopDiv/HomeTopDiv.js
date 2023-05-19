@@ -26,8 +26,11 @@ import postNatalTreatment from "../../assets/home/postnatal-treatment.jpg"
 import postrokeTheraphy from "../../assets/home/postroke-theraphy.jpg"
 import yourTraditionalCompanion from "../../assets/home/your-traditional-companion.jpg"
 import reviewPartOne from "../../assets/home/review-part.jpg"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
 
 const HomeTopDiv = () => {
+  const startIcon = <FontAwesomeIcon icon={faStar} color={"gold"} />;
   return (
     <div className="bg-img">
       <div className="container">
@@ -154,13 +157,14 @@ const HomeTopDiv = () => {
                 }
               >
                 <Card.Title>Urut Melayu</Card.Title>
-
                 <Card.Text>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-                  odit porro autem inventore ducimus aliquid laborum, fugit
-                  obcaecati quis molestias minus.
+                  Traditional Malay Massage is also known as Urut Melayu which is involves soft-tissues and muscle manipulation of the whole body to stimulate other systems in the body such as lymphatic, circulatory and nerve systems.
                 </Card.Text>
-                <Button className="viewMoreBtn">View more</Button>
+                <Button className="viewMoreBtn">
+                  <a href="/services/all#service-1#category-1" className="viewMoreAnchor">
+                    Learn more
+                  </a>
+                </Button>
               </Card.ImgOverlay>
             </Card>
           </Col>
@@ -180,13 +184,14 @@ const HomeTopDiv = () => {
                 }
               >
                 <Card.Title>Post-Natal Treatment</Card.Title>
-
                 <Card.Text>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-                  odit porro autem inventore ducimus aliquid laborum, fugit
-                  obcaecati quis molestias minus.
+                  Malay post-natal care is traditional treatment or maternal healing and energy restoration for women who have given birth throughout a specific period.
                 </Card.Text>
-                <Button className="viewMoreBtn">View more</Button>
+                <Button className="viewMoreBtn">
+                  <a href="/services/all#service-1#category-1" className="viewMoreAnchor">
+                    Learn more
+                  </a>
+                </Button>
               </Card.ImgOverlay>
             </Card>
           </Col>
@@ -206,13 +211,14 @@ const HomeTopDiv = () => {
                 }
               >
                 <Card.Title>Postroke Therapy</Card.Title>
-
                 <Card.Text>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-                  odit porro autem inventore ducimus aliquid laborum, fugit
-                  obcaecati quis molestias minus.
+                  Do you struggle with Out-of-balance sexuality Hormones? Legacy therapy that has been done by Malay midwifery practices for women&#39;s internal problems related to estrogen hormonal imbalance.
                 </Card.Text>
-                <Button className="viewMoreBtn">View more</Button>
+                <Button className="viewMoreBtn">
+                  <a href="/services" className="viewMoreAnchor">
+                    Learn more
+                  </a>
+                </Button>
               </Card.ImgOverlay>
             </Card>
           </Col>
@@ -237,7 +243,7 @@ const HomeTopDiv = () => {
                 <Card.Img
                   variant="top"
                   // src="https://img.freepik.com/free-vector/watercolor-wellness-spa-poster-template_23-2150322457.jpg?w=740&t=st=1684194549~exp=1684195149~hmac=26c2b072730da63c27821b6bb7438b47b6f324ad9760030ad6aa0acfbe923a45"
-                  src={promotion1} 
+                  src={promotion1}
                   alt="promotion one"
                   onClick={() =>
                     alert("Sorry, the feature is under development!")
@@ -269,7 +275,7 @@ const HomeTopDiv = () => {
                 <Card.Img
                   variant="top"
                   //src="https://img.freepik.com/free-vector/watercolor-wellness-spa-poster-template_23-2150322457.jpg?w=740&t=st=1684194549~exp=1684195149~hmac=26c2b072730da63c27821b6bb7438b47b6f324ad9760030ad6aa0acfbe923a45"
-                  src={promotion2} 
+                  src={promotion2}
                   alt="promotion two"
                   onClick={() =>
                     alert("Sorry, the feature is under development!")
@@ -314,10 +320,13 @@ const HomeTopDiv = () => {
                 alt="background for first review slide"
               />
               <Carousel.Caption>
-                <h5>First slide label</h5>
-                <p>
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
+                <h5 className="textColor">First slide label {Array(5).fill(startIcon)}</h5>
+                <p className="textColor">
+                  “From when I was single, I took the Sri Pengantin package until I had one child, I still took the massage
+                  package with Kak Sha. Kak sha, the massage is really good, it&#39;s light on the body, it feels fresh. If you
+                  have sustenance every month, you want to have a massage.”
                 </p>
+                <h6 className="textColor">- Shamimi, Subang Jaya</h6>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item className="fixed-height">
@@ -327,8 +336,12 @@ const HomeTopDiv = () => {
                 alt="Second slide"
               />
               <Carousel.Caption>
-                <h5>Second slide label</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h5 className="textColor">Second slide label {Array(5).fill(startIcon)}</h5>
+                <p className="textColor">“Alhamdulillah very happy with the service from Perawan Juwita. 1st time using the confinement lady&#39;s
+                  (CL)service felt fresh and relieved. CL is also flexible and always comes on time. CL is knowledgeable in
+                  Malay midwifery. always share tips and advice during confinement and after confinement. It&#39;s really
+                  follow the malay traditional treatment”</p>
+                <h6 className="textColor">- Fatimah, Shah Alam</h6>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item className="fixed-height">
@@ -338,11 +351,30 @@ const HomeTopDiv = () => {
                 alt="Third slide"
               />
               <Carousel.Caption>
-                <h5>Third slide label</h5>
-                <p>
-                  Praesent commodo cursus magna, vel scelerisque nisl
-                  consectetur.
+                <h5 className="textColor">Third slide label {Array(5).fill(startIcon)}</h5>
+                <p className="textColor">
+                  “Many times had repeated treatment with Perawan Juwita..took the Penutup Pantang in 2020 is the
+                  best treatment. Massage, body mask, sauna and the best part is tangas.. I have also had a massage and
+                  cupping, after the massage the body feels very light, the service is the best and the price is worth it with
+                  the package offered. The best thing is that you don&#39;t have to go to the spa, we just wait at home.. thank
+                  you sha. Inshallah I will continue to repeat and recommend you to other people”
                 </p>
+                <h6 className="textColor">- Juliana, Puchong</h6>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item className="fixed-height">
+              <img
+                className="d-block w-100"
+                src="https://img.freepik.com/free-vector/flat-design-autumnal-wallpaper_52683-43403.jpg?w=1060&t=st=1684193805~exp=1684194405~hmac=674ad4370f0301d424d2528f2fe21fdb505c89a9829fc618aede6b7e4439c8bb"
+                alt="Third slide"
+              />
+              <Carousel.Caption>
+                <h5 className="textColor">Third slide label {Array(5).fill(startIcon)}</h5>
+                <p className="textColor">
+                  “I must say thanks to akak, I got my period after 3 months my period delayed. Only 1 week after get
+                  massage my period finally come. Thank you so much akak”
+                </p>
+                <h6 className="textColor">- Kisho, Klang</h6>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>

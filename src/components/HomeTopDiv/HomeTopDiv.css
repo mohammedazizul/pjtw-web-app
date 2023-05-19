@@ -78,6 +78,10 @@
   border-color: 2px solid #594545;
 }
 
+.textColor {
+  color: #594545;
+}
+
 .sixthRefFirstDiv {
   /* background-image: url("../../assets/home-bg-image.png"); */
   background-image: url("../../assets/home/make-an-appointment.jpg");
@@ -152,10 +156,20 @@
   border-color: #594545;
 }
 
+.viewMoreAnchor {
+  text-decoration: none;
+  color: #F1DEC9;
+}
+
 .viewMoreBtn:hover {
   background-color: #F1DEC9;
   color: #594545;
   border-color: #594545;
+}
+
+.viewMoreAnchor:hover {
+  text-decoration: none;
+  color: #594545;
 }
 
 .feedbackSection {
