@@ -286,7 +286,9 @@ const HomeTopDiv = () => {
         </Row>
         <Row className="d-flex justify-content-center">
           <Carousel variant="dark" className="">
-            <Carousel.Item className="reviews-carousel-item">
+            <Carousel.Item 
+              // className="reviews-carousel-item"
+            >
               <img
                 className="home-feedback-carousel-image"
                 src={reviewPartOne}
@@ -304,7 +306,9 @@ const HomeTopDiv = () => {
                 </div>
               </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item className="reviews-carousel-item">
+            <Carousel.Item 
+              // className="reviews-carousel-item"
+            >
               <img
                 className="home-feedback-carousel-image"
                 src="https://img.freepik.com/free-vector/autumn-leaves-background_23-2148619742.jpg?w=1060&t=st=1684193741~exp=1684194341~hmac=aba1fea76fcb6328f1ca932a2bbf5ad61d9e46c1d3cc3dcd74bcb6fe1e4fc088"
@@ -320,7 +324,9 @@ const HomeTopDiv = () => {
 
               </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item className="reviews-carousel-item">
+            <Carousel.Item 
+              // className="reviews-carousel-item"
+            >
               <img
                 className="home-feedback-carousel-image"
                 src="https://img.freepik.com/free-vector/flat-design-autumnal-wallpaper_52683-43403.jpg?w=1060&t=st=1684193805~exp=1684194405~hmac=674ad4370f0301d424d2528f2fe21fdb505c89a9829fc618aede6b7e4439c8bb"
@@ -340,7 +346,9 @@ const HomeTopDiv = () => {
 
               </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item className="reviews-carousel-item">
+            <Carousel.Item 
+              // className="reviews-carousel-item"
+            >
               <img
                 className="home-feedback-carousel-image"
                 src="https://img.freepik.com/free-vector/flat-design-autumnal-wallpaper_52683-43403.jpg?w=1060&t=st=1684193805~exp=1684194405~hmac=674ad4370f0301d424d2528f2fe21fdb505c89a9829fc618aede6b7e4439c8bb"

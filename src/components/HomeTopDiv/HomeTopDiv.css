@@ -212,10 +212,10 @@
   object-fit: contain;
 }
 
-.reviews-carousel-item {
-  /* display: flex; */
-  /* justify-content: center; */
-}
+/* .reviews-carousel-item {
+  display: flex;
+  justify-content: center;
+} */
 
 .paymentLogoDiv {
   padding-top: 20px;
