@@ -272,7 +272,7 @@
   }
 
   .home-service-card {
-    height: 40vw;
+    height: auto;
   }
   
   .home-service-card-image {
