@@ -1,43 +1,68 @@
 .spa-service-card {
-    box-shadow: 0px 5px 10px #888888;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    text-align: center;
-    cursor: pointer;
-  }
-  
+  box-shadow: 0px 5px 10px #888888;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
 .spa-service-title {
   font-size: 22px;
   font-weight: bold;
   margin-bottom: 20px;
 }
-  
+
 .spa-service-list .spa-service-item {
   border-bottom: 1px solid lightgray;
   cursor: pointer;
 }
-  
+
 .spa-service-category {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
 }
-  
+
 .spa-service-description {
   font-size: 14px;
   margin-bottom: 10px;
 }
-  
+
 .spa-service-details {
   font-size: 14px;
   font-style: italic;
 }
-  
+
+.services-make-appointment-anchor {
+  color: #F1DEC9;
+  background-color: #594545;
+  padding: 10px;
+  /* width: 20vw; */
+  border: 0px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+
+.services-make-appointment-anchor:hover {
+  text-decoration: none;
+  transform: translateY(-3px);
+  box-shadow: 0px 8px 20px #F1DEC9;
+  background-color: #F1DEC9;
+  color: #594545;
+  border-color: #594545;
+  font-weight: 600;
+  transition: transform 2.05s ease-in-out;
+  -webkit-transition: transform 1.05s ease-in-out;
+  -moz-transition: transform 1.05s ease-in-out;
+  -ms-transition: transform 1.05s ease-in-out;
+}
+
 @media (max-width: 991px) {
   .spa-service-card {
     width: 100%;
     margin: 20px 0;
   }
 }
-  

@@ -1,11 +1,19 @@
+.services-main {
+    background-color: #F1DEC9;
+}
+
 .services-div {
     padding: 10px 150px 10px 150px;
-    background-color: #BD7E49;
+    /* background-color: #BD7E49; */
+}
+
+.services-h1 {
+    color: #594545;
+    font-size: 50px;
 }
 
 @media (max-width: 991px) {
     .services-div {
         padding: 10px;
     }
-  }
-   
+}

@@ -33,7 +33,7 @@ const HomeTopDiv = () => {
   return (
     <div className="bg-img">
       <div className="container">
-        <Navigation />
+        <Navigation navFontColorCode={"#F1DEC9"} />
         <div className="homeTopMainDiv">
           <Container className="p-0 m-0">
             <Row>
@@ -123,7 +123,7 @@ const HomeTopDiv = () => {
                   >
                     Reserver Now
                   </a>
-              </div>
+                </div>
               </div>
             </Col>
           </Row>
@@ -293,13 +293,15 @@ const HomeTopDiv = () => {
                 alt="background for first review slide"
               />
               <Carousel.Caption>
-                <h5 className="textColor">First slide label {Array(5).fill(startIcon)}</h5>
-                <p className="textColor">
-                  “From when I was single, I took the Sri Pengantin package until I had one child, I still took the massage
-                  package with Kak Sha. Kak sha, the massage is really good, it&#39;s light on the body, it feels fresh. If you
-                  have sustenance every month, you want to have a massage.”
-                </p>
-                <h6 className="textColor">- Shamimi, Subang Jaya</h6>
+                <div className="container feedback-div">
+                  <h5 className="textColor">Ratings {Array(5).fill(startIcon)}</h5>
+                  <p className="textColor">
+                    “From when I was single, I took the Sri Pengantin package until I had one child, I still took the massage
+                    package with Kak Sha. Kak sha, the massage is really good, it&#39;s light on the body, it feels fresh. If you
+                    have sustenance every month, you want to have a massage.”
+                  </p>
+                  <h6 className="textColor">- Shamimi, Subang Jaya</h6>
+                </div>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item className="fixed-height">
@@ -309,12 +311,13 @@ const HomeTopDiv = () => {
                 alt="Second slide"
               />
               <Carousel.Caption>
-                <h5 className="textColor">Second slide label {Array(5).fill(startIcon)}</h5>
-                <p className="textColor">“Alhamdulillah very happy with the service from Perawan Juwita. 1st time using the confinement lady&#39;s
-                  (CL)service felt fresh and relieved. CL is also flexible and always comes on time. CL is knowledgeable in
-                  Malay midwifery. always share tips and advice during confinement and after confinement. It&#39;s really
-                  follow the malay traditional treatment”</p>
-                <h6 className="textColor">- Fatimah, Shah Alam</h6>
+                <div className="feedback-div">                <h5 className="textColor">Ratings {Array(5).fill(startIcon)}</h5>
+                  <p className="textColor">“Alhamdulillah very happy with the service from Perawan Juwita. 1st time using the confinement lady&#39;s
+                    (CL)service felt fresh and relieved. CL is also flexible and always comes on time. CL is knowledgeable in
+                    Malay midwifery. always share tips and advice during confinement and after confinement. It&#39;s really
+                    follow the malay traditional treatment”</p>
+                  <h6 className="textColor">- Fatimah, Shah Alam</h6></div>
+
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item className="fixed-height">
@@ -324,30 +327,31 @@ const HomeTopDiv = () => {
                 alt="Third slide"
               />
               <Carousel.Caption>
-                <h5 className="textColor">Third slide label {Array(5).fill(startIcon)}</h5>
-                <p className="textColor">
-                  “Many times had repeated treatment with Perawan Juwita..took the Penutup Pantang in 2020 is the
-                  best treatment. Massage, body mask, sauna and the best part is tangas.. I have also had a massage and
-                  cupping, after the massage the body feels very light, the service is the best and the price is worth it with
-                  the package offered. The best thing is that you don&#39;t have to go to the spa, we just wait at home.. thank
-                  you sha. Inshallah I will continue to repeat and recommend you to other people”
-                </p>
-                <h6 className="textColor">- Juliana, Puchong</h6>
+                <div className="feedback-div">                <h5 className="textColor">Ratings {Array(5).fill(startIcon)}</h5>
+                  <p className="textColor">
+                    “Many times had repeated treatment with Perawan Juwita..took the Penutup Pantang in 2020 is the
+                    best treatment. Massage, body mask, sauna and the best part is tangas.. I have also had a massage and
+                    cupping, after the massage the body feels very light, the service is the best and the price is worth it with
+                    the package offered. The best thing is that you don&#39;t have to go to the spa, we just wait at home.. thank
+                    you sha. Inshallah I will continue to repeat and recommend you to other people”
+                  </p>
+                  <h6 className="textColor">- Juliana, Puchong</h6></div>
+
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item className="fixed-height">
               <img
                 className="d-block w-100"
                 src="https://img.freepik.com/free-vector/flat-design-autumnal-wallpaper_52683-43403.jpg?w=1060&t=st=1684193805~exp=1684194405~hmac=674ad4370f0301d424d2528f2fe21fdb505c89a9829fc618aede6b7e4439c8bb"
-                alt="Third slide"
+                alt="Fourth slide"
               />
               <Carousel.Caption>
-                <h5 className="textColor">Third slide label {Array(5).fill(startIcon)}</h5>
-                <p className="textColor">
-                  “I must say thanks to akak, I got my period after 3 months my period delayed. Only 1 week after get
-                  massage my period finally come. Thank you so much akak”
-                </p>
-                <h6 className="textColor">- Kisho, Klang</h6>
+                <div className="feedback-div">                <h5 className="textColor">Ratings {Array(5).fill(startIcon)}</h5>
+                  <p className="textColor">
+                    “I must say thanks to akak, I got my period after 3 months my period delayed. Only 1 week after get
+                    massage my period finally come. Thank you so much akak”
+                  </p>
+                  <h6 className="textColor">- Kisho, Klang</h6></div>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
@@ -374,8 +378,8 @@ const HomeTopDiv = () => {
                 </div>
               </Row>
               <Row>
-              <div className="padding-top-extra">
-                <div className="d-flex justify-content-center home-make-appointment-div">
+                <div className="padding-top-extra">
+                  <div className="d-flex justify-content-center home-make-appointment-div">
                     <a
                       className="home-make-appointment-anchor home-make-appointment-anchor2"
                       href="https://bit.ly/3NqgGQJ"
@@ -384,15 +388,15 @@ const HomeTopDiv = () => {
                       MAKE AN APPOINTMENT
                     </a>
                   </div>
-              </div>
+                </div>
               </Row>
             </div>
           </div>
         </Row>
         <Row
-          // style={{
-          //   border: "3px solid blue",
-          // }}
+        // style={{
+        //   border: "3px solid blue",
+        // }}
         >
           <div className="d-flex justify-content-center paymentLogoDiv">
             <Row>

@@ -8,15 +8,16 @@ const bellIcon = <FontAwesomeIcon icon={faBell} shake />;
 
 const BookNowBtn = ({ text }) => (
   <Button
-    // commented for new navigation
-    // style={{
-    //   marginRight: "5px",
-    // }}
     variant="primary"
-    className="custom-button"
-    href="/services/all"
+    className="book-now-button"
   >
-    {text} {bellIcon}
+    <a
+      className="book-now-anchor"
+      href="https://form.jotform.com/perawanjuwita/treatment-consent-form"
+      target="blank"
+    >
+      {text} {bellIcon}
+    </a>
   </Button>
 );
 

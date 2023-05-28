@@ -45,7 +45,7 @@ const Service = ({
     >
       <Card.Header>
         <Card.Title
-          style={{ color: "#03755B" }}
+          style={{ color: "#594545" }}
           className="spa-service-title"
           onClick={() => toggleCategories(serviceId)}
         >
@@ -54,7 +54,7 @@ const Service = ({
       </Card.Header>
       <Card.Body>
         {/* <Card.Title
-          style={{ color: "#03755B" }}
+          style={{ color: "#594545" }}
           className="spa-service-title"
           onClick={() => toggleCategories(serviceId)}
         >
@@ -63,28 +63,28 @@ const Service = ({
 
         {/* on load if redirect from home */}
         {onLoadServiceToShow === "" ? null : serviceId ===
-            onLoadServiceToShow && !showCategories ? (
+          onLoadServiceToShow && !showCategories ? (
           <ListGroup className="list-group-flush spa-service-list">
             {categories.map((category, index) =>
               onLoadCategoryToShow === category.categoryId ? (
                 <ListGroupItem key={index} className="spa-service-item">
                   <h5
                     className="spa-service-category"
-                    style={{ color: "#03755B" }}
+                    style={{ color: "#594545" }}
                   >
                     {category.name}
                   </h5>
                   <>
                     <p
                       className="spa-service-description"
-                      style={{ color: "#03755B" }}
+                      style={{ color: "#594545" }}
                       id={category.id}
                     >
                       {category.description}
                     </p>
                     <p
                       className="spa-service-details"
-                      style={{ color: "#03755B", fontWeight: "bold" }}
+                      style={{ color: "#594545", fontWeight: "bold" }}
                     >
                       {priceIcon} RM{category.price} &nbsp;&nbsp;|&nbsp;&nbsp;{" "}
                       {durationIcon} {category.duration} mins
@@ -108,7 +108,7 @@ const Service = ({
               >
                 <h5
                   className="spa-service-category"
-                  style={{ color: "#03755B" }}
+                  style={{ color: "#594545" }}
                 >
                   {category.name}
                 </h5>
@@ -116,7 +116,7 @@ const Service = ({
                   <>
                     <p
                       className="spa-service-description"
-                      style={{ color: "#03755B" }}
+                      style={{ color: "#594545" }}
                       id={category.id}
                     >
                       {category.description}
@@ -127,11 +127,20 @@ const Service = ({
                     </p> */}
                     <p
                       className="spa-service-details"
-                      style={{ color: "#03755B", fontWeight: "bold" }}
+                      style={{ color: "#594545", fontWeight: "bold" }}
                     >
                       {priceIcon} RM{category.price} &nbsp;&nbsp;|&nbsp;&nbsp;{" "}
                       {durationIcon} {category.duration} mins
                     </p>
+                    <div className="d-flex justify-content-center">
+                      <a
+                        className="services-make-appointment-anchor"
+                        href="https://form.jotform.com/perawanjuwita/treatment-consent-form"
+                        target="blank"
+                      >
+                        MAKE AN APPOINTMENT
+                      </a>
+                    </div>
                   </>
                 ) : null}
               </ListGroupItem>

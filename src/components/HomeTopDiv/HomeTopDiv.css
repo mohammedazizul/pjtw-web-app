@@ -3,7 +3,7 @@
   /* The image used */
   /* background-image: url("../../assets/home-bg.jpg"); */
   background-image: url("../../assets/home-bg-image.png");
- 
+
   /* min-height: 380px; */
   height: 100vh;
 
@@ -11,7 +11,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
+
   /* Needed to position the navbar */
   position: relative;
 }
@@ -20,6 +20,15 @@
   height: 80vh;
   margin-bottom: 73px;
   background-color: rgba(255, 255, 255, 0.6);
+}
+
+.feedback-div {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  padding: 5px;
+  -webkit-box-shadow: 0 0 10px #fff;
+  box-shadow: 0 0 10px #fff;
+  font-weight: 500;
 }
 
 .HomeTopDiv-image {
@@ -36,7 +45,7 @@
   border-radius: 5px;
 }
 
-.HomeTopDiv-p { 
+.HomeTopDiv-p {
   font-weight: 600;
   font-size: 20px;
   padding: 30px;
@@ -70,8 +79,8 @@
   font-weight: 600;
   transition: transform 2.05s ease-in-out;
   -webkit-transition: transform 1.05s ease-in-out;
-  -moz-transition:transform 1.05s ease-in-out;
-  -ms-transition:transform 1.05s ease-in-out;
+  -moz-transition: transform 1.05s ease-in-out;
+  -ms-transition: transform 1.05s ease-in-out;
 }
 
 .home-make-appointment-anchor2:hover {
@@ -220,7 +229,7 @@
     padding-bottom: 30px;
   }
 
-  .HomeTopDiv-p { 
+  .HomeTopDiv-p {
     color: #594545;
   }
 
@@ -240,9 +249,9 @@
   .sixthRefH1 {
     font-size: 25px;
     padding-top: 200px;
-    margin:auto;
-    line-height:51px;
-    vertical-align:middle;
+    margin: auto;
+    line-height: 51px;
+    vertical-align: middle;
   }
 
   .topPadding {
@@ -251,7 +260,7 @@
 
   .sixthRefThirdDiv {
     color: #594545;
-    text-align:center;
+    text-align: center;
   }
 
   .paddingTop {
@@ -274,10 +283,9 @@
   .home-service-card {
     height: auto;
   }
-  
+
   .home-service-card-image {
     height: 50vw;
     object-fit: cover;
   }
 }
- 

@@ -210,7 +210,7 @@ const Index = () => {
           5.	Tenggiri Mix Herbs
           6.	Salmon Grilled Herbs
           7.	Beef Black Pepper
-          
+
           Menu 2
           1.	Pak Choy Oyster
           2.	Dried Fish Kailan
@@ -241,8 +241,11 @@ const Index = () => {
   }, []);
 
   return (
-    <>
-      <Navigation />
+    <div className="services-main">
+      <Navigation navFontColorCode={"#594545"} />
+      <div className="d-flex justify-content-center">
+        <h1 className="services-h1 ">SERVICES</h1>
+      </div>
       <div className="services-div">
         {services.map((service, index) => (
           <Service
@@ -256,7 +259,7 @@ const Index = () => {
         ))}
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 

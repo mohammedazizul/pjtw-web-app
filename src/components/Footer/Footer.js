@@ -7,7 +7,8 @@ import {
   faFacebook,
   faTiktok,
   faTelegram,
-  faWaze
+  faWaze,
+  faWhatsapp
 } from "@fortawesome/free-brands-svg-icons";
 import DevFooter from "../DevFooter/DevFooter";
 import pjtw from "../../assets/pjtw-logo.jpg"
@@ -22,6 +23,7 @@ const Footer = () => {
   const telegramIcon = <FontAwesomeIcon icon={faTelegram} size="lg" />;
   const wazeIcon = <FontAwesomeIcon icon={faWaze} size="lg" />;
   const mapIcon = <FontAwesomeIcon icon={faMapLocationDot} size="lg" />;
+  const whatsAppIcon = <FontAwesomeIcon icon={faWhatsapp} size="lg" />;
 
   return (
     <div
@@ -78,6 +80,14 @@ const Footer = () => {
                   rel="noreferrer"
                 >
                   {telegramIcon}
+                </a>
+                <a
+                  href="https://bit.ly/3NqgGQJ"
+                  className="me-4 text-reset"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {whatsAppIcon}
                 </a>
                 <a
                   href="https://waze.com/ul/hw2828g93g"
