@@ -119,8 +119,8 @@
   justify-content: space-around;
   align-items: stretch;
   flex-direction: column;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .paymentIconImg {
@@ -178,6 +178,7 @@
   justify-content: space-around;
   align-items: stretch;
   flex-direction: column;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
@@ -187,6 +188,20 @@
 
 .paymentLogoDiv {
   padding-top: 20px;
+}
+
+.home-service-card {
+  /* border: 2px solid red; */
+  color: #594545;
+  background-color: #F1DEC9;
+  width: 100%;
+  height: 12vw;
+}
+
+.home-service-card-image {
+  width: 100%;
+  height: 20vw;
+  object-fit: cover;
 }
 
 @media (max-width: 991px) {
@@ -215,9 +230,14 @@
 
   .makeAppointA {
     width: 50vw;
-   }
+  }
 
-   .sixthRefH1 {
+  .promoMainDiv {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .sixthRefH1 {
     font-size: 25px;
     padding-top: 200px;
     margin:auto;
@@ -232,10 +252,6 @@
   .sixthRefThirdDiv {
     color: #594545;
     text-align:center;
-  }
-
-  .homeServicesMainDiv {
-    height: 1100px;
   }
 
   .paddingTop {
@@ -253,6 +269,15 @@
   .paymentIconImg {
     height: 75px;
     width: 75px;
+  }
+
+  .home-service-card {
+    height: 40vw;
+  }
+  
+  .home-service-card-image {
+    height: 50vw;
+    object-fit: cover;
   }
 }
  

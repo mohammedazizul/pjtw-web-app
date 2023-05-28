@@ -13,7 +13,6 @@ import {
 // import ServiceInAbout from "../ServiceCardInAbout/ServiceInAbout";
 // import FeedbackCarousel from "../FeedbackCarousel/FeedbackCarousel";
 import Footer from "../Footer/Footer";
-// import dummyImage from "../../assets/286X180.svg";
 import logo from "../../assets/pjtw-logo.jpg";
 import mastercard from "../../assets/payment-logo/mastercard.png"
 import visa from "../../assets/payment-logo/visa.png"
@@ -83,7 +82,6 @@ const HomeTopDiv = () => {
             <Col className="pt-5" md={6} sm={12}>
               <Image
                 fluid
-                // src="https://as1.ftcdn.net/v2/jpg/00/66/96/02/1000_F_66960295_g9xpjL6i0mjcyUHInPie82W663gvIwBp.jpg"
                 src={yourTraditionalCompanion}
                 alt="image for your traditional companion section"
               />
@@ -142,20 +140,13 @@ const HomeTopDiv = () => {
         </Row>
         <Row xs={1} md={2} className="g-4">
           <Col md={4} sm={12} className="paddingTop">
-            <Card className="bg-dark text-white text-center">
-              <Card.Img
-                // src="https://img.freepik.com/free-photo/sea-salt-towels-aroma-oil-bottles-flowers-vintage-wooden-background_1150-37681.jpg?w=1060&t=st=1684194032~exp=1684194632~hmac=31065387fe80b02f940e07a4d85a102301a8aad687f283914f8199ec1bd1bfcf"
+            <Card className="bg-dark text-white text-center" >
+              <Card.Img variant="top" className="home-service-card-image"
                 src={urutMelayu}
                 alt="image for the service urut melayu"
               />
-              <Card.ImgOverlay
-                className="d-flex flex-column justify-content-end"
-                style={
-                  {
-                    // border: "2px solid red",
-                  }
-                }
-              >
+              {/* <Card.ImgOverlay */}
+              <Card className="d-flex flex-column justify-content-end home-service-card">
                 <Card.Title>Urut Melayu</Card.Title>
                 <Card.Text>
                   Traditional Malay Massage is also known as Urut Melayu which is involves soft-tissues and muscle manipulation of the whole body to stimulate other systems in the body such as lymphatic, circulatory and nerve systems.
@@ -165,24 +156,17 @@ const HomeTopDiv = () => {
                     Learn more
                   </a>
                 </Button>
-              </Card.ImgOverlay>
+              </Card>
             </Card>
           </Col>
           <Col md={4} sm={12} className="paddingTop">
             <Card className="bg-dark text-white text-center">
-              <Card.Img
-                // src="https://img.freepik.com/free-photo/sea-salt-towels-aroma-oil-bottles-flowers-vintage-wooden-background_1150-37681.jpg?w=1060&t=st=1684194032~exp=1684194632~hmac=31065387fe80b02f940e07a4d85a102301a8aad687f283914f8199ec1bd1bfcf"
+              <Card.Img variant="top" className="home-service-card-image"
                 src={postNatalTreatment}
                 alt="image for the service post-natal treatment"
               />
-              <Card.ImgOverlay
-                className="d-flex flex-column justify-content-end"
-                style={
-                  {
-                    // border: "2px solid red",
-                  }
-                }
-              >
+              {/* <Card.ImgOverlay */}
+              <Card className="d-flex flex-column justify-content-end home-service-card">
                 <Card.Title>Post-Natal Treatment</Card.Title>
                 <Card.Text>
                   Malay post-natal care is traditional treatment or maternal healing and energy restoration for women who have given birth throughout a specific period.
@@ -192,24 +176,17 @@ const HomeTopDiv = () => {
                     Learn more
                   </a>
                 </Button>
-              </Card.ImgOverlay>
+              </Card>
             </Card>
           </Col>
           <Col md={4} sm={12} className="paddingTop">
-            <Card className="bg-dark text-white text-center">
-              <Card.Img
-                // src="https://img.freepik.com/free-photo/sea-salt-towels-aroma-oil-bottles-flowers-vintage-wooden-background_1150-37681.jpg?w=1060&t=st=1684194032~exp=1684194632~hmac=31065387fe80b02f940e07a4d85a102301a8aad687f283914f8199ec1bd1bfcf"
+            <Card className="bg-dark text-white text-center" >
+              <Card.Img variant="top" className="home-service-card-image"
                 src={postrokeTheraphy}
                 alt="image for the service postroke theraphy"
               />
-              <Card.ImgOverlay
-                className="d-flex flex-column justify-content-end"
-                style={
-                  {
-                    // border: "2px solid red",
-                  }
-                }
-              >
+              {/* <Card.ImgOverlay */}
+              <Card className="d-flex flex-column justify-content-end home-service-card">
                 <Card.Title>Postroke Therapy</Card.Title>
                 <Card.Text>
                   Do you struggle with Out-of-balance sexuality Hormones? Legacy therapy that has been done by Malay midwifery practices for women&#39;s internal problems related to estrogen hormonal imbalance.
@@ -219,7 +196,7 @@ const HomeTopDiv = () => {
                     Learn more
                   </a>
                 </Button>
-              </Card.ImgOverlay>
+              </Card>
             </Card>
           </Col>
         </Row>
@@ -242,7 +219,6 @@ const HomeTopDiv = () => {
               <Card style={{ width: "18rem" }}>
                 <Card.Img
                   variant="top"
-                  // src="https://img.freepik.com/free-vector/watercolor-wellness-spa-poster-template_23-2150322457.jpg?w=740&t=st=1684194549~exp=1684195149~hmac=26c2b072730da63c27821b6bb7438b47b6f324ad9760030ad6aa0acfbe923a45"
                   src={promotion1}
                   alt="promotion one"
                   onClick={() =>
@@ -315,7 +291,6 @@ const HomeTopDiv = () => {
             <Carousel.Item className="fixed-height">
               <img
                 className="d-block w-100 fluid"
-                // src="https://img.freepik.com/free-vector/hand-drawn-autumn-background_23-2148616467.jpg?w=1060&t=st=1684193697~exp=1684194297~hmac=1edf850be839492486a33625b0705ab0acc58bec35c7fac0f1d4c97d04fe1012"
                 src={reviewPartOne}
                 alt="background for first review slide"
               />
@@ -415,9 +390,9 @@ const HomeTopDiv = () => {
           </div>
         </Row>
         <Row
-          style={{
-            // border: "3px solid blue",
-          }}
+          // style={{
+          //   border: "3px solid blue",
+          // }}
         >
           <div className="d-flex justify-content-center paymentLogoDiv">
             <Row>
