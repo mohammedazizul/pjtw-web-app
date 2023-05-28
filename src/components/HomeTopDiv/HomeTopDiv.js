@@ -278,22 +278,22 @@ const HomeTopDiv = () => {
         </Row>
       </section>
       {/* <FeedbackCarousel /> */}
-      <section className="feedbackSection" id="reviews">
+      <section className="home-review-section" id="reviews">
         <Row className="d-flex justify-content-center">
           <div className="d-flex justify-content-center">
             <h1 className="home-h1">PEOPLE SAY ABOUT US</h1>
           </div>
         </Row>
         <Row className="d-flex justify-content-center">
-          <Carousel variant="dark" className="fixed-height">
-            <Carousel.Item className="fixed-height">
+          <Carousel variant="dark" className="">
+            <Carousel.Item className="reviews-carousel-item">
               <img
-                className="d-block w-100 fluid"
+                className="home-feedback-carousel-image"
                 src={reviewPartOne}
                 alt="background for first review slide"
               />
-              <Carousel.Caption>
-                <div className="container feedback-div">
+              <Carousel.Caption className="home-review-carousel-caption">
+                <div className="container home-review-div">
                   <h5 className="textColor">Ratings {Array(5).fill(startIcon)}</h5>
                   <p className="textColor">
                     “From when I was single, I took the Sri Pengantin package until I had one child, I still took the massage
@@ -304,14 +304,14 @@ const HomeTopDiv = () => {
                 </div>
               </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item className="fixed-height">
+            <Carousel.Item className="reviews-carousel-item">
               <img
-                className="d-block w-100"
+                className="home-feedback-carousel-image"
                 src="https://img.freepik.com/free-vector/autumn-leaves-background_23-2148619742.jpg?w=1060&t=st=1684193741~exp=1684194341~hmac=aba1fea76fcb6328f1ca932a2bbf5ad61d9e46c1d3cc3dcd74bcb6fe1e4fc088"
                 alt="Second slide"
               />
-              <Carousel.Caption>
-                <div className="feedback-div">                <h5 className="textColor">Ratings {Array(5).fill(startIcon)}</h5>
+              <Carousel.Caption className="home-review-carousel-caption">
+                <div className="home-review-div">                <h5 className="textColor">Ratings {Array(5).fill(startIcon)}</h5>
                   <p className="textColor">“Alhamdulillah very happy with the service from Perawan Juwita. 1st time using the confinement lady&#39;s
                     (CL)service felt fresh and relieved. CL is also flexible and always comes on time. CL is knowledgeable in
                     Malay midwifery. always share tips and advice during confinement and after confinement. It&#39;s really
@@ -320,14 +320,15 @@ const HomeTopDiv = () => {
 
               </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item className="fixed-height">
+            <Carousel.Item className="reviews-carousel-item">
               <img
-                className="d-block w-100"
+                className="home-feedback-carousel-image"
                 src="https://img.freepik.com/free-vector/flat-design-autumnal-wallpaper_52683-43403.jpg?w=1060&t=st=1684193805~exp=1684194405~hmac=674ad4370f0301d424d2528f2fe21fdb505c89a9829fc618aede6b7e4439c8bb"
                 alt="Third slide"
               />
-              <Carousel.Caption>
-                <div className="feedback-div">                <h5 className="textColor">Ratings {Array(5).fill(startIcon)}</h5>
+              <Carousel.Caption className="home-review-carousel-caption">
+                <div className="home-review-div">                
+                <h5 className="textColor">Ratings {Array(5).fill(startIcon)}</h5>
                   <p className="textColor">
                     “Many times had repeated treatment with Perawan Juwita..took the Penutup Pantang in 2020 is the
                     best treatment. Massage, body mask, sauna and the best part is tangas.. I have also had a massage and
@@ -339,14 +340,14 @@ const HomeTopDiv = () => {
 
               </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item className="fixed-height">
+            <Carousel.Item className="reviews-carousel-item">
               <img
-                className="d-block w-100"
+                className="home-feedback-carousel-image"
                 src="https://img.freepik.com/free-vector/flat-design-autumnal-wallpaper_52683-43403.jpg?w=1060&t=st=1684193805~exp=1684194405~hmac=674ad4370f0301d424d2528f2fe21fdb505c89a9829fc618aede6b7e4439c8bb"
                 alt="Fourth slide"
               />
-              <Carousel.Caption>
-                <div className="feedback-div">                <h5 className="textColor">Ratings {Array(5).fill(startIcon)}</h5>
+              <Carousel.Caption className="home-review-carousel-caption">
+                <div className="home-review-div">                <h5 className="textColor">Ratings {Array(5).fill(startIcon)}</h5>
                   <p className="textColor">
                     “I must say thanks to akak, I got my period after 3 months my period delayed. Only 1 week after get
                     massage my period finally come. Thank you so much akak”
