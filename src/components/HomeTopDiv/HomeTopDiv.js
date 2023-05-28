@@ -58,14 +58,16 @@ const HomeTopDiv = () => {
               </Col>
             </Row>
             <Row>
-              <div className="d-flex justify-content-center makeAppointDiv">
-                <a
-                  className="makeAppointA"
-                  href="https://bit.ly/3NqgGQJ"
-                  target="blank"
-                >
-                  MAKE AN APPOINTMENT
-                </a>
+              <div className="padding-top-extra">
+                <div className="d-flex justify-content-center home-make-appointment-div">
+                  <a
+                    className="home-make-appointment-anchor"
+                    href="https://bit.ly/3NqgGQJ"
+                    target="blank"
+                  >
+                    MAKE AN APPOINTMENT
+                  </a>
+                </div>
               </div>
             </Row>
           </Container>
@@ -113,19 +115,15 @@ const HomeTopDiv = () => {
                 specific diet and treatment for life well-being.
               </p>
               <div className="d-flex justify-content-end pt-4">
-                <Button
-                  style={{
-                    color: "#F1DEC9",
-                    backgroundColor: "#594545",
-                    padding: "10px",
-                    border: "0px",
-                  }}
-                  onClick={() =>
-                    alert("Sorry, the feature is under development!")
-                  }
-                >
-                  Reserver Now
-                </Button>
+                <div className="d-flex justify-content-center home-make-appointment-div">
+                  <a
+                    className="home-make-appointment-anchor"
+                    href="https://bit.ly/3NqgGQJ"
+                    target="blank"
+                  >
+                    Reserver Now
+                  </a>
+              </div>
               </div>
             </Col>
           </Row>
@@ -151,8 +149,8 @@ const HomeTopDiv = () => {
                 <Card.Text>
                   Traditional Malay Massage is also known as Urut Melayu which is involves soft-tissues and muscle manipulation of the whole body to stimulate other systems in the body such as lymphatic, circulatory and nerve systems.
                 </Card.Text>
-                <Button className="viewMoreBtn">
-                  <a href="/services/all#service-1#category-1" className="viewMoreAnchor">
+                <Button className="service-learn-more-button">
+                  <a href="/services/all#service-1#category-1" className="service-learn-more-anchor">
                     Learn more
                   </a>
                 </Button>
@@ -171,8 +169,8 @@ const HomeTopDiv = () => {
                 <Card.Text>
                   Malay post-natal care is traditional treatment or maternal healing and energy restoration for women who have given birth throughout a specific period.
                 </Card.Text>
-                <Button className="viewMoreBtn">
-                  <a href="/services/all#service-1#category-1" className="viewMoreAnchor">
+                <Button className="service-learn-more-button">
+                  <a href="/services/all#service-1#category-1" className="service-learn-more-anchor">
                     Learn more
                   </a>
                 </Button>
@@ -191,8 +189,8 @@ const HomeTopDiv = () => {
                 <Card.Text>
                   Do you struggle with Out-of-balance sexuality Hormones? Legacy therapy that has been done by Malay midwifery practices for women&#39;s internal problems related to estrogen hormonal imbalance.
                 </Card.Text>
-                <Button className="viewMoreBtn">
-                  <a href="/services" className="viewMoreAnchor">
+                <Button className="service-learn-more-button">
+                  <a href="/services" className="service-learn-more-anchor">
                     Learn more
                   </a>
                 </Button>
@@ -376,15 +374,17 @@ const HomeTopDiv = () => {
                 </div>
               </Row>
               <Row>
-                <div className="d-flex justify-content-center makeAppointDiv">
-                  <a
-                    className="makeAppointA makeAppointA2"
-                    href="https://bit.ly/3NqgGQJ"
-                    target="blank"
-                  >
-                    MAKE AN APPOINTMENT
-                  </a>
-                </div>
+              <div className="padding-top-extra">
+                <div className="d-flex justify-content-center home-make-appointment-div">
+                    <a
+                      className="home-make-appointment-anchor home-make-appointment-anchor2"
+                      href="https://bit.ly/3NqgGQJ"
+                      target="blank"
+                    >
+                      MAKE AN APPOINTMENT
+                    </a>
+                  </div>
+              </div>
               </Row>
             </div>
           </div>

@@ -44,11 +44,11 @@
   font-style: italic;
 }
 
-.makeAppointDiv {
+.padding-top-extra {
   padding-top: 80px;
 }
 
-.makeAppointA {
+.home-make-appointment-anchor {
   color: #F1DEC9;
   background-color: #594545;
   padding: 10px;
@@ -60,7 +60,7 @@
   border: 1px solid transparent;
 }
 
-.makeAppointA:hover {
+.home-make-appointment-anchor:hover {
   text-decoration: none;
   transform: translateY(-3px);
   box-shadow: 0px 8px 20px #F1DEC9;
@@ -74,7 +74,7 @@
   -ms-transition:transform 1.05s ease-in-out;
 }
 
-.makeAppointA2:hover {
+.home-make-appointment-anchor2:hover {
   border-color: 2px solid #594545;
 }
 
@@ -150,24 +150,24 @@
   padding-right: 20px;
 }
 
-.viewMoreBtn {
+.service-learn-more-button {
   background-color: #594545;
   color: #F1DEC9;
   border-color: #594545;
 }
 
-.viewMoreAnchor {
+.service-learn-more-anchor {
   text-decoration: none;
   color: #F1DEC9;
 }
 
-.viewMoreBtn:hover {
+.service-learn-more-button:hover {
   background-color: #F1DEC9;
   color: #594545;
   border-color: #594545;
 }
 
-.viewMoreAnchor:hover {
+.service-learn-more-anchor:hover {
   text-decoration: none;
   color: #594545;
 }
@@ -224,11 +224,11 @@
     color: #594545;
   }
 
-  .makeAppointDiv {
+  .home-make-appointment-div {
     padding-top: 0px;
   }
 
-  .makeAppointA {
+  .home-make-appointment-anchor {
     width: 50vw;
   }
 
