@@ -4,6 +4,7 @@ import Navigation from "../../components/Navigation/Navigation";
 // import { useTranslation } from "react-i18next";
 import Service from "../../components/ServiceCard";
 import "./style.css";
+import { Col, Row } from "react-bootstrap";
 
 const Index = () => {
   // const { t } = useTranslation();
@@ -246,6 +247,15 @@ const Index = () => {
       <div className="d-flex justify-content-center">
         <h1 className="services-h1 ">SERVICES</h1>
       </div>
+      <section className="services-header-section">
+        <Row className="row">
+          <Col className="" md={6} sm={8}>
+            <div className="services-header-div">
+              <h1>here</h1>
+            </div>
+          </Col>
+        </Row>
+      </section>
       <div className="services-div">
         {services.map((service, index) => (
           <Service

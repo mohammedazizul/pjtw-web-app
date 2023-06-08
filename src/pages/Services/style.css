@@ -1,19 +1,43 @@
 .services-main {
-    background-color: #F1DEC9;
+  background-color: #f1dec9;
 }
 
 .services-div {
-    padding: 10px 150px 10px 150px;
-    /* background-color: #BD7E49; */
+  padding: 10px 150px 10px 150px;
+  /* background-color: #BD7E49; */
 }
 
 .services-h1 {
-    color: #594545;
-    font-size: 50px;
+  color: #594545;
+  font-size: 50px;
+}
+
+.services-header-section {
+  /* The image used */
+  /* background-image: url("../../assets/home-bg.jpg"); */
+  background-image: url("../../assets/home-bg-image.png");
+  height: 90vh;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Needed to position the navbar */
+  position: relative;
+  /* align-items: center; */
+}
+
+.services-header-div {
+  /* height: 80vh; */
+  /* margin-bottom: 73px; */
+  background-color: rgba(192, 192, 192, 0.5);
+  /* to vertically center */
+  /* margin: 0;
+  position: absolute;
+  top: 50%; */
 }
 
 @media (max-width: 991px) {
-    .services-div {
-        padding: 10px;
-    }
+  .services-div {
+    padding: 10px;
+  }
 }
